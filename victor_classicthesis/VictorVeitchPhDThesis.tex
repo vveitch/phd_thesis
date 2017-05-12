@@ -1,0 +1,533 @@
+% **************************************************************************************************************
+% A Classic Thesis Style
+% An Homage to The Elements of Typographic Style
+%
+% Copyright (C) 2015 André Miede http://www.miede.de
+%
+% If you like the style then I would appreciate a postcard. My address 
+% can be found in the file ClassicThesis.pdf. A collection of the 
+% postcards I received so far is available online at 
+% http://postcards.miede.de
+%
+% License:
+% This program is free software; you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation; either version 2 of the License, or
+% (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program; see the file COPYING.  If not, write to
+% the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+% Boston, MA 02111-1307, USA.
+%
+% **************************************************************************************************************
+\RequirePackage{fix-cm} % fix some latex issues see: http://texdoc.net/texmf-dist/doc/latex/base/fixltx2e.pdf
+\documentclass[ twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,% letterpaper a4paper
+                footinclude=true,cleardoublepage=empty,abstractoff, % <--- obsolete, remove (todo)
+                BCOR=5mm,paper=a4,fontsize=11pt,%11pt,a4paper,%
+                english,%
+                ]{scrreprt}
+\usepackage[title]{appendix}
+
+
+%********************************************************************
+% Note: Make all your adjustments in here
+%*******************************************************
+\input{victorthesis-config}
+
+%********************************************************************
+% Bibliographies
+%*******************************************************
+% \addbibresource{Bibliography.bib}
+% \addbibresource[label=ownpubs]{AMiede_Publications.bib}
+\addbibresource{random_graphs.bib}
+
+%********************************************************************
+% Hyphenation
+%*******************************************************
+%\hyphenation{put special hyphenation here}
+
+% ********************************************************************
+% KEG preamble loads and options
+%*******************************************************
+\usepackage{enumitem}
+\usepackage{amsmath, amsthm, amssymb,bm, cases, mathtools, thmtools, thm-restate}
+\usepackage{mathrsfs}
+
+%\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage{euscript,microtype}
+
+\usepackage{xargs} %for weird lyx legacy reasons?
+
+% \usepackage[%
+%     minnames=4,maxnames=99,maxcitenames=4,
+%     style=alphabetic,
+%     doi=false,url=false,
+%     firstinits=true,hyperref,natbib,backend=bibtex]{biblatex}
+% \renewbibmacro{in:}{%
+%   \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+% \AtEveryBibitem{\clearfield{issn}}
+% \AtEveryBibitem{\clearfield{isbn}}
+% \AtEveryCitekey{\clearfield{issn}}
+% \AtEveryCitekey{\clearfield{isbn}}
+% \AtEveryBibitem{\ifentrytype{book}{\clearfield{pages}}{}}
+% %\DeclareFieldFormat[misc]{title}{\mkbibquote{#1}}
+% \DeclareFieldFormat[book,article,unpublished,misc]{title}{\textit{#1}}
+% %\DeclareFieldFormat[unpublished]{title}{\textit{#1}}
+% %\DeclareFieldFormat[misc]{title}{\textit{#1}}
+% %\DeclareFieldFormat[article]{title}{\textit{#1}}
+% \DeclareFieldFormat[article]{journaltitle}{{#1}}
+% %\DeclareFieldFormat{edition}{\ifinteger{#1}{\mkbibordeditioâân{#1}~\bibstring{edition}}{#1\isdot}}
+
+% \usepackage[colorlinks,citecolor=blue,urlcolor=blue,linkcolor=RawSienna,hypertexnames=true]{hyperref}
+% \usepackage{hypernat}
+
+%\usepackage[capitalize,nameinlink]{cleveref}
+\usepackage[capitalize]{cleveref}
+
+
+\crefname{lem}{Lemma}{Lemmas}
+\crefname{cor}{Corollary}{Corollaries}
+\crefname{thm}{Theorem}{Theorems}
+\crefname{assumption}{Assumption}{Assumptions}
+
+\numberwithin{equation}{section}
+
+\declaretheorem[style=plain,numberwithin=section,name=Theorem]{thm}
+\declaretheorem[style=plain,sibling=thm,name=Lemma]{lem}
+\declaretheorem[style=plain,sibling=thm,name=Proposition]{prop}
+\declaretheorem[style=plain,sibling=thm,name=Corollary]{cor}
+
+\declaretheorem[style=definition,sibling=thm,name=Definition]{defn}
+\declaretheorem[style=definition,name=Assumption]{assumption}
+\declaretheorem[style=definition,sibling=thm,name=Example]{example}
+\declaretheorem[style=remark,sibling=thm,name=Remark]{remark}
+
+\usepackage{babel}
+  \providecommand{\definitionname}{Definition}
+  \providecommand{\lemmaname}{Lemma}
+  \providecommand{\remarkname}{Remark}
+ \providecommand{\casename}{Case}
+\providecommand{\theoremname}{Theorem}
+
+% inadvisable
+\def\[#1\]{\begin{align}#1\end{align}}
+\def\*[#1\]{\begin{align*}#1\end{align*}}
+
+
+% ********************************************************************
+% Dan's commenting code
+%*******************************************************
+\input{commenting.tex}
+%% For submission, uncomment these lines to make all annotations render as blank.
+%\renewcommand{\LATER}[1]{}
+%\renewcommand{\fLATER}[1]{}
+%\renewcommand{\TBD}[1]{}
+%\renewcommand{\fTBD}[1]{}
+%\renewcommand{\PROBLEM}[1]{}
+%\renewcommand{\fPROBLEM}[1]{}
+%\renewcommand{\NA}[1]{#1}  %% Note, NA's pass through!
+
+
+%********************************************************************
+% Macros
+%*******************************************************
+%\hyphenation{put special hyphenation here}
+
+%%%preamble commands from BCCH
+\DeclareMathOperator{\dit}{dist}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\har}{har}
+\DeclareMathOperator{\GFF}{GFF}
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\SLE}{SLE}
+\DeclareMathOperator{\CLE}{CLE}
+
+\def\cZ{\mathcal{Z}}
+\def\cY{\mathcal{Y}}
+\def\cX{\mathcal{X}}
+\def\cW{\mathcal{W}}
+\def\cV{\mathcal{V}}
+\def\cU{\mathcal{U}}
+\def\cT{\mathcal{T}}
+\def\cS{\mathcal{S}}
+\def\cR{\mathcal{R}}
+\def\cQ{\mathcal{Q}}
+\def\cP{\mathcal{P}}
+\def\cO{\mathcal{O}}
+\def\cN{\mathcal{N}}
+\def\cM{\mathcal{M}}
+\def\cL{\mathcal{L}}
+\def\cK{\mathcal{K}}
+\def\cJ{\mathcal{J}}
+\def\cI{\mathcal{I}}
+\def\cH{\mathcal{H}}
+\def\cG{\mathcal{G}}
+\def\cF{\mathcal{F}}
+\def\cE{\mathcal{E}}
+\def\cD{\mathcal{D}}
+\def\cC{\mathcal{C}}
+\def\cB{\mathcal{B}}
+\def\cA{\mathcal{A}}
+
+\newcommand{\BB}{\mathbb}
+\newcommand{\ol}{\overline}
+\newcommand{\ul}{\underline}
+\newcommand{\op}{\operatorname}
+\newcommand{\la}{\langle}
+\newcommand{\ra}{\rangle}
+\newcommand{\bd}{\mathbf}
+\newcommand{\im}{\operatorname{Im}}
+\newcommand{\re}{\operatorname{Re}}
+\newcommand{\frk}{\mathfrak}
+\newcommand{\scr}{\mathscr}
+\newcommand{\eqD}{\overset{d}{=}}
+\newcommand{\ep}{\epsilon}
+\newcommand{\rta}{\rightarrow}
+\newcommand{\xrta}{\xrightarrow}
+\newcommand{\Rta}{\Rightarrow}
+\newcommand{\hookrta}{\hookrightarrow}
+\newcommand{\wt}{\widetilde}
+\newcommand{\wh}{\widehat}
+\newcommand{\mcl}{\mathcal}
+\newcommand{\pre}{{\operatorname{pre}}}
+\newcommand{\lrta}{\leftrightarrow}
+\newcommand{\bdy}{\partial}
+\newcommand{\W}{\mcl{W}}
+
+
+\newcommand{\defnphrase}[1]{\emph{#1}}
+
+\global\long\def\floor#1{\lfloor#1\rfloor}
+
+\newcommand{\st}{\,:\,}
+\newcommand{\Reals}{\mathbb{R}}
+\newcommand{\Nats}{\mathbb{N}}
+\newcommand{\NNReals}{\Reals_{+}}
+\newcommand{\edges}{e}
+\newcommand{\vertices}{v}
+\newcommand{\loops}{l}
+\newcommand{\EE}{\mathbb{E}}
+\newcommand{\convPr}{\xrightarrow{\,p\,}}
+\newcommand{\convDist}{\xrightarrow{\,d\,}}
+\newcommand{\equaldist}{\overset{d}{=}}
+\newcommand{\upto}{\!\uparrow\!}
+\newcommand{\given}{\mid}
+\newcommand{\binDist}{\mathrm{Bin}}
+\newcommand{\uniDist}{\mathrm{Uni}}
+\newcommand{\poiDist}{\mathrm{Poi}}
+\newcommand{\as}{\textrm{ a.s.}}
+\newcommand{\equalas}{\overset{\mathrm{a.s.}}{=}}
+\newcommand{\abs}[1]{\left\lvert#1 \right\rvert}
+\newcommand{\intd}{\,\mathrm{d}}
+\newcommand{\dist}{\ \sim\ }
+\newcommand{\distiid}{\overset{\mathrm{iid}}{\dist}}
+\newcommand{\distind}{\overset{ind}{\dist}}
+\newcommand{\done}{\delta_1}
+\newcommand{\dcut}{\delta_\square}
+\newcommand{\dtv}[1]{\|#1\|_{\mathrm{TV}}}
+\newcommand{\PP}{\Pi}
+\newcommand{\PPDist}{\mathrm{PP}}
+
+\newcommand{\exclude}{\backslash}
+\newcommand{\Lebesgue}{\Lambda}
+\newcommand{\NatSubs}[1]{\tilde \Nats_{#1}}
+\newcommand{\StarF}{S} \newcommand{\IsoF}{I}
+
+\newcommand{\B}{\mathbb{B}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\bbH}{\mathbb{H}}
+
+\newcommand{\eps}{\varepsilon}
+\newcommand{\1}{\mathbf{1}}
+\renewcommand{\Re}{\mathrm{Re}}
+\renewcommand{\Im}{\mathrm{Im}}
+
+\global\long\def\iid{i.i.d.\ }
+\global\long\def\iff{iff\ }
+
+% Distributions
+\global\long\def\diri{\mathrm{Diri}}
+
+\global\long\def\categ{\mathrm{Cat}}
+
+\global\long\def\betaDist{\mathrm{Beta}}
+
+\global\long\def\bern{\mathrm{Bernoulli}}
+
+\global\long\def\bernDist{\bern}
+
+\global\long\def\binDist{\mathrm{Bin}}
+
+\global\long\def\uniDist{\mathrm{Uni}}
+
+\global\long\def\poiDist{\mathrm{Poi}}
+
+\global\long\def\gammaDist{\mathrm{Gamma}}
+
+
+\global\long\def\norm#1{\lVert#1 \rVert}
+
+\global\long\def\defas{\vcentcolon=}
+
+
+\global\long\def\st{\,:\,}
+
+
+\global\long\def\dist{\ \sim\ }
+
+
+\global\long\def\given{\mid}
+
+
+\global\long\def\distiid{\overset{iid}{\dist}}
+
+
+\global\long\def\distind{\overset{ind}{\dist}}
+
+
+\global\long\def\Naturals{\mathbb{N}}
+
+
+\global\long\def\Rationals{\mathbb{Q}}
+
+
+\global\long\def\Reals{\mathbb{R}}
+
+
+\global\long\def\BorelSets{\mathcal{B}}
+
+
+\global\long\def\Nats{\mathbb{N}}
+
+
+\global\long\def\Ints{\mathbb{Z}}
+
+
+\global\long\def\NNInts{\Ints_{+}}
+
+
+\global\long\def\NNExtInts{\overline{\Ints}_{+}}
+
+
+\global\long\def\Cantor{\2^{\mathbb{N}}}
+
+
+\global\long\def\NNReals{\Reals_{+}}
+
+
+\global\long\def\as{\textrm{ a.s.}}
+
+
+\global\long\def\epi{\textrm{epi}}
+
+
+\global\long\def\intr{\textrm{int}}
+
+
+\global\long\def\conv{\textrm{conv}}
+
+
+\global\long\def\cone{\textrm{cone}}
+
+
+\global\long\def\aff{\textrm{aff}}
+
+
+\global\long\def\cone{\textrm{cone}}
+
+
+\global\long\def\dom{\textrm{dom}}
+
+
+\global\long\def\cl{\textrm{cl}}
+
+
+\global\long\def\ri{\textrm{ri}}
+
+
+\global\long\def\grad{\nabla}
+
+
+\global\long\def\imp{\Rightarrow}
+
+
+\global\long\def\downto{\!\downarrow\!}
+
+
+\global\long\def\upto{\!\uparrow\!}  \global\long\def\AND{\wedge}
+
+
+\global\long\def\OR{\vee}
+
+
+\global\long\def\NOT{\neg}
+
+
+\global\long\def\PowerSet{\mathcal{P}}
+
+
+\global\long\def\Measures{\mathcal{M}}
+
+
+\global\long\def\ProbMeasures{\mathcal{M}_{1}}
+
+
+\global\long\def\equaldist{\overset{d}{=}}
+
+\global\long\def\equalprob{\overset{p}{=}}
+
+\global\long\def\inv{^{-1}}
+
+
+\global\long\def\norm#1{\lVert#1 \rVert}
+
+
+\global\long\def\event#1{\left\lbrace #1 \right\rbrace }
+
+
+\global\long\def\tuple#1{\langle#1 \rangle}
+
+
+\global\long\def\bspace{\Omega}
+
+
+\global\long\def\bsa{\mathcal{A}}
+
+
+\global\long\def\borelspace{(\bspace,\bsa)}
+
+
+\global\long\def\card#1{\##1}
+
+
+\newcommand{\baseSpace}{\scr}
+
+\newcommand{\samp}[2][]{\mathsf{Smpl}\mathopen{}\left(#2,#1\right)\mathclose{}}
+\newcommand{\sampWR}[2][]{\mathsf{SmplWR}\mathopen{}\left(#2,#1\right)\mathclose{}}
+
+\newcommand{\sampD}[2]{\mathrm{SmplD}\mathopen{}\left(#1,#2\right)\mathclose{}}
+\newcommand{\sampWRD}[2]{\mathrm{SmplWRD}_(#1,#2)}
+
+\newcommand{\GP}{\mathcal{G}}
+\newcommand{\GPD}[2]{\mathrm{GPD}\mathopen{}\left(#1,#2\right)\mathclose{}}
+%TBD: fix this
+\newcommand{\embed}[2][]{\Gamma_{#1}\mathopen{}\left(#2\right)\mathclose{}}
+
+\newcommand{\RLabel}[2][]{\mathsf{Lbl}_{#1}(#2)}
+\newcommand{\REmbed}[1]{\mathsf{embed}(#1)}
+\newcommand{\RLabelD}[2][]{\mathrm{embed}_{#1}\mathopen{}\left(#2\right)\mathclose{}}
+
+\newcommand{\KEG}{\Gamma}
+\newcommand{\CAM}[1]{\mathcal G\mathopen{}\left(#1\right)\mathclose{}}
+
+\newcommand{\empGraphon}{\tilde{W}}
+\newcommand{\canEmpGraphon}[1]{W^{#1}}
+\newcommand{\strGraphon}[1]{W^{#1,s}}
+\newcommand{\convEstGP}{\to_{\mathrm{GP}}}
+\newcommand{\convEstGS}{\to_{\mathrm{GS}}}
+\newcommand{\GS}[1]{\mathscr G(#1)}
+
+\newcommand\KEGD[2]{\KEGDinf{#1,#2}}
+\newcommand\KEGDinf[1]{\mathrm{KEG}(#1)}
+
+
+\newcommand{\sampLim}[1]{\eta_{#1}}
+\newcommand{\labelLim}{\zeta}
+
+\newcommand{\dsamp}{\delta_{\mathrm{smpl}}}
+\newcommand{\dgp}{\delta_{\mathrm{GP}}}
+\newcommand{\limspace}{\mathscr{W}}
+\newcommand{\graphspace}{\mathscr{G}}
+
+
+% ********************************************************************
+% GO!GO!GO! MOVE IT!
+%*******************************************************
+\begin{document}
+\frenchspacing
+\raggedbottom
+\selectlanguage{english} % american ngerman
+%\renewcommand*{\bibname}{new name}
+%\setbibpreamble{}
+\pagenumbering{roman}
+\pagestyle{plain}
+%********************************************************************
+% Frontmatter
+%*******************************************************
+%\include{FrontBackmatter/DirtyTitlepage}
+\include{FrontBackmatter/Titlepage}
+%\include{FrontBackmatter/Titleback}
+\cleardoublepage\include{FrontBackmatter/Dedication}
+%\cleardoublepage\include{FrontBackmatter/Foreword}
+\cleardoublepage\include{FrontBackmatter/Abstract}
+\cleardoublepage\include{FrontBackmatter/Publications}
+\cleardoublepage\include{FrontBackmatter/Acknowledgments}
+\pagestyle{scrheadings}
+\cleardoublepage\include{FrontBackmatter/Contents}
+%********************************************************************
+% Mainmatter
+%*******************************************************
+\cleardoublepage\pagenumbering{arabic}
+%\setcounter{page}{90}
+% use \cleardoublepage here to avoid problems with pdfbookmark
+\cleardoublepage
+\part{Overview}
+\cleardoublepage
+\ctparttext{You can put some informational part preamble text here. 
+Illo principalmente su nos. Non message \emph{occidental} angloromanic
+da. Debitas effortio simplificate sia se, auxiliar summarios da que,
+se avantiate publicationes via. Pan in terra summarios, capital
+interlingua se que. Al via multo esser specimen, campo responder que
+da. Le usate medical addresses pro, europa origine sanctificate nos se.}
+
+%\include{Chapters/Chapter01}
+\cleardoublepage
+\ctparttext{You can put some informational part preamble text here. 
+Illo principalmente su nos. Non message \emph{occidental} angloromanic
+da. Debitas effortio simplificate sia se, auxiliar summarios da que,
+se avantiate publicationes via. Pan in terra summarios, capital
+interlingua se que. Al via multo esser specimen, campo responder que
+da. Le usate medical addresses pro, europa origine sanctificate nos se.}
+\part{The Showcase}
+\include{Chapters/intro}
+% \include{Chapters/VR15}
+% \include{Chapters/VR16}
+% \include{Chapters/BCCV17}
+%\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
+%\include{Chapters/Chapter03}
+%\include{multiToC} % <--- just debug stuff, ignore for your documents
+% ********************************************************************
+% Backmatter
+%*******************************************************
+\appendix
+%\renewcommand{\thechapter}{\alph{chapter}}
+%\cleardoublepage
+% \part{Appendix}
+% \include{Chapters/Chapter0A}
+%********************************************************************
+% Other Stuff in the Back
+%*******************************************************
+\cleardoublepage\include{FrontBackmatter/Bibliography}
+\cleardoublepage\include{FrontBackmatter/Declaration}
+\cleardoublepage\include{FrontBackmatter/Colophon}
+% ********************************************************************
+% Game Over: Restore, Restart, or Quit?
+%*******************************************************
+\end{document}
+% ********************************************************************

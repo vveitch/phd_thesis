@@ -1,0 +1,612 @@
+%% LyX 2.0.8.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{beamer}
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% A simple dot to overcome graphicx limitations
+\newcommand{\lyxdot}{.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+ % this default might be overridden by plain title style
+ \newcommand\makebeamertitle{\frame{\maketitle}}%
+ \AtBeginDocument{
+   \let\origtableofcontents=\tableofcontents
+   \def\tableofcontents{\@ifnextchar[{\origtableofcontents}{\gobbletableofcontents}}
+   \def\gobbletableofcontents#1{\origtableofcontents}
+ }
+ \long\def\lyxplainframe#1{\@lyxplainframe#1\@lyxframestop}%
+ \def\@lyxplainframe{\@ifnextchar<{\@@lyxplainframe}{\@@lyxplainframe<*>}}%
+ \long\def\@@lyxplainframe<#1>#2\@lyxframestop#3\lyxframeend{%
+   \frame<#1>[plain]{\frametitle{#2}#3}}
+ \newenvironment{centercolumns}{\begin{columns}[c]}{\end{columns}}
+ \def\lyxframeend{} % In case there is a superfluous frame end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+%\usetheme{Warsaw}
+% or ...
+\useoutertheme{wuerzburg}
+
+\useinnertheme[outline]{chamfered}
+
+\usecolortheme{shark}
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\textrm{}\global\long\def\defas{\vcentcolon=}
+
+
+\textrm{}\global\long\def\st{\,:\,}
+
+
+\textrm{}\global\long\def\dist{\ \sim\ }
+
+
+\textrm{}\global\long\def\given{\mid}
+
+
+\textrm{}\global\long\def\distiid{\overset{iid}{\dist}}
+
+
+\textrm{}\global\long\def\distind{\overset{ind}{\dist}}
+
+
+\global\long\def\Naturals{\mathbb{N}}
+
+
+\global\long\def\Rationals{\mathbb{Q}}
+
+
+\global\long\def\Reals{\mathbb{R}}
+
+
+\global\long\def\BorelSets{\mathcal{B}}
+
+
+\global\long\def\Nats{\mathbb{N}}
+
+
+\global\long\def\Ints{\mathbb{Z}}
+
+
+\global\long\def\NNInts{\Ints_{+}}
+
+
+\global\long\def\NNExtInts{\overline{\Ints}_{+}}
+
+
+\global\long\def\Cantor{\2^{\mathbb{N}}}
+
+
+\global\long\def\NNReals{\Reals_{+}}
+
+
+\global\long\def\as{\textrm{ a.s.}}
+
+
+\global\long\def\epi{\textrm{epi}}
+
+
+\global\long\def\intr{\textrm{int}}
+
+
+\global\long\def\conv{\textrm{conv}}
+
+
+\global\long\def\cone{\textrm{cone}}
+
+
+\global\long\def\aff{\textrm{aff}}
+
+
+\global\long\def\cone{\textrm{cone}}
+
+
+\global\long\def\dom{\textrm{dom}}
+
+
+\global\long\def\cl{\textrm{cl}}
+
+
+\global\long\def\ri{\textrm{ri}}
+
+
+\global\long\def\grad{\nabla}
+
+
+\global\long\def\imp{\Rightarrow}
+
+
+\global\long\def\downto{\!\downarrow\!}
+
+
+\global\long\def\upto{\!\uparrow\!}
+\global\long\def\AND{\wedge}
+
+
+\global\long\def\OR{\vee}
+
+
+\global\long\def\NOT{\neg}
+
+
+\global\long\def\PowerSet{\mathcal{P}}
+
+
+\global\long\def\Measures{\mathcal{M}}
+
+
+\global\long\def\ProbMeasures{\mathcal{M}_{1}}
+
+
+\global\long\def\equaldist{\overset{d}{=}}
+
+
+\global\long\def\inv{^{-1}}
+
+
+\global\long\def\norm#1{\lVert#1 \rVert}
+
+
+\global\long\def\event#1{\left\lbrace #1 \right\rbrace }
+
+
+\global\long\def\tuple#1{\langle#1 \rangle}
+
+
+\global\long\def\bspace{\Omega}
+
+
+\global\long\def\bsa{\mathcal{A}}
+
+
+\global\long\def\borelspace{(\bspace,\bsa)}
+
+
+\global\long\def\card#1{\##1}
+
+
+\global\long\def\iid{i.i.d.}
+
+
+\global\long\def\gprocess#1#2{(#1)_{#2}}
+
+
+\global\long\def\nprocess#1#2#3{\gprocess{#1_{#3}}{#3 \in#2}}
+
+
+\global\long\def\process#1#2{\nprocess{#1}{#2}n}
+
+
+\global\long\def\expect#1{\mathbb{E}\left[#1\right]}
+
+
+\global\long\def\var#1{\mbox{var}\left[#1\right]}
+
+
+\global\long\def\equalas{\overset{\mbox{a.s.}}{=}}
+
+
+\global\long\def\iid{\distiid}
+
+
+\global\long\def\abs#1{\lvert#1 \rvert}
+
+
+\global\long\def\norm#1{\lVert#1\rVert}
+
+
+\global\long\def\inedge#1{e_{#1}^{\mbox{in}}}
+
+
+\global\long\def\outedge#1{e_{#1}^{\mbox{out}}}
+
+
+\global\long\def\intd{\mathrm{d}}
+
+
+\global\long\def\suchthat{\mid}
+
+
+\global\long\def\Pr{P}
+
+
+\global\long\def\convPr{\xrightarrow{\mbox{p}}}
+
+
+\global\long\def\floor#1{\lfloor#1\rfloor}
+
+
+\global\long\def\asympLim#1{\ ,#1\rightarrow\infty}
+
+
+\global\long\def\PP{\Pi}
+
+
+\global\long\def\PPnu{\Pi_{\nu}}
+
+
+\global\long\def\vertexset#1{v\left(#1\right)}
+
+
+\global\long\def\edgeset#1{e\left(#1\right)}
+
+
+\global\long\def\PPbelowth#1{\Pi_{\nu,\le#1}}
+
+
+\global\long\def\PPaboveth#1{\Pi_{\nu,>#1}}
+
+
+\global\long\def\linverse{^{-1}}
+
+
+\global\long\def\threshold{T_{\nu}}
+
+
+\global\long\def\popthreshold{T_{\nu,\mbox{pop}}}
+
+
+\global\long\def\popgraph{P_{\nu}}
+
+
+\global\long\def\upperthreshold{T_{\nu,u}}
+
+
+\global\long\def\numDegNu#1{N_{\nu,#1}}
+
+
+$\global\long\def\law{\mathcal{L}}
+$
+
+
+\title{The general class of (sparse) random graphs arising from exchangeable
+point processes}
+
+
+\author{Victor~Veitch \and Daniel~M.~Roy}
+
+
+\institute{Department of Statistical Sciences, University of Toronto }
+
+
+\date{SSC 2016}
+
+\makebeamertitle
+
+\lyxframeend{}\section{Overview and Results}
+
+
+\lyxframeend{}\lyxplainframe{Big Picture}
+\begin{block}
+{Motivating Problem}
+
+Need families of random graphs for modelling network structures
+
+\end{block}
+
+\begin{block}
+{Example}
+\begin{itemize}
+\item network: friendships among $n$ users of a social network 
+\item model: family of random graphs $(G_{n})_{n\in\Nats}$ 
+\end{itemize}
+\end{block}
+
+\lyxframeend{}\lyxplainframe{Sparse Networks}
+\begin{block}
+{Real world networks are sparsely connected}
+
+Random graph models should be \emph{sparse}: $o(n^{2})$ edges as
+number of observed nodes $n$ becomes large.
+
+\end{block}
+
+\pause{}
+\begin{block}
+{Problem}
+
+No general framework for the statistical analysis of sparsely connected
+networks.
+
+\end{block}
+
+\lyxframeend{}\lyxplainframe{Sparse Graphs}
+
+We have no satisfactory answers to some fundamental questions:
+\begin{enumerate}
+\item how should we parameterize the space of distributions on sparse graphs? 
+\item what can we learn about a large graph if we observe only a small subgraph?
+and what do we mean when we say ``observe''? 
+\end{enumerate}
+
+\lyxframeend{}\lyxplainframe{Results}
+\begin{block}
+{Results}
+
+We derive and study a general class of random graphs suitable for
+modelling network structures.
+
+\end{block}
+
+\pause{}
+\begin{block}
+{Special cases}
+\begin{itemize}
+\item All dense (graphon) models
+\item Caron \& Fox models
+\item Sparse graphs with e.g. small world and power law behaviour
+\end{itemize}
+\end{block}
+
+\lyxframeend{}\lyxplainframe{Graphs, Adjacency, and Pixel Pictures}
+
+\begin{figure}
+\begin{centering}
+\includegraphics[scale=0.8]{Figures/petersen}
+\par\end{centering}
+
+\raggedleft{}{\tiny{}{[}Lov12{]}}
+\end{figure}
+
+
+
+\lyxframeend{}\lyxplainframe{Dense Graphs}
+\begin{block}
+{Graph models}
+\begin{itemize}
+\item Basic object: infinite random binary matrix $(X_{ij})$
+\item Random graphs: $(G_{n})_{n}$ defined by adjacency matrix as $n\times n$
+upper left submatrix
+\end{itemize}
+\end{block}
+
+\pause{}
+\begin{block}
+{Joint exchangeability of infinite random matrices}
+
+$(X_{ij})\equaldist(X_{\sigma(i)\sigma(j)})$ for all permutations
+$\sigma\in S_{\infty}$ of the positive integers
+
+\end{block}
+
+\pause{}
+\begin{block}
+{Aldous-Hoover-Kallenberg (translated)}
+\begin{itemize}
+\item Primitive of inference: $W:[0,1]^{2}\to[0,1]$ (a \emph{graphon})
+\item Generative model for $(X_{ij})$ in terms of $W$
+\end{itemize}
+\end{block}
+
+\lyxframeend{}\lyxplainframe{Graphon Generative Model}
+
+Given a graphon $W:[0,1]^{2}\to[0,1]$, sample a random graph by:
+\begin{enumerate}
+\item Assign each vertex $i$ an iid $U[0,1]$ latent random variable
+\item Include each edge $(i,j)$ independently with probability $W(U_{i},U_{j})$
+\end{enumerate}
+
+
+\begin{figure}
+\begin{centering}
+\includegraphics[width=0.8\paperwidth]{Figures/graphon_figure_austere}
+\par\end{centering}
+
+Edge $(4,5)$ is included with probability $W(0.3,0.9)=W(0.9,0.3)$.
+\\
+The graphon $W$ is shown as a heatmap on the right.
+
+\end{figure}
+
+
+
+\lyxframeend{}\lyxplainframe{Representation Theorem}
+\begin{block}
+{Recipe for constructing statistical models}
+\begin{itemize}
+\item Assume a probabilistic symmetry on some infinite random structure
+\item Associated representation theorem picks out privileged family of distributions
+\end{itemize}
+\end{block}
+
+\begin{block}
+{Examples}
+\begin{itemize}
+\item de Finetti's representation theorem for exchangeable sequences
+\item Aldous-Hoover-Kallenberg theorem for exchangeable arrays
+\end{itemize}
+\end{block}
+
+\lyxframeend{}\lyxplainframe{Caron \& Fox 2014: (Sparse) Exchangeable Graphs}
+\begin{centercolumns}%{}
+
+
+\column{6cm}
+\begin{block}
+{Key insights}
+\begin{itemize}
+\item adjacency matrix $\to$ \\
+point process on $\NNReals^{2}$
+\item array joint exchangeability $\to$ \\
+point process joint exchangeability
+\end{itemize}
+\end{block}
+
+\column{4cm}
+
+
+\begin{figure}
+\centering{}\includegraphics[width=0.5\columnwidth]{Figures/graph}\\
+\includegraphics[width=1\columnwidth]{Figures/adjmeas}\\
+Graph edges correspond to points on $\NNReals^{2}$
+\end{figure}
+
+
+\end{centercolumns}%{}
+
+\lyxframeend{}\lyxplainframe{(Sparse) Graph Representation Theorem}
+\begin{block}
+<1->{Setup}
+\begin{itemize}
+\item Random structure: point process on $\NNReals^{2}$
+\item Finite graph $G_{s}$: truncate to $s\times s$ box
+\item Symmetry: joint exchangeability of point process
+\end{itemize}
+\end{block}
+
+\begin{alertblock}
+<2->{Representation theorem{*}}
+
+Distribution characterized by a \emph{graphex}: a symmetric, integrable
+function $W:\NNReals^{2}\to[0,1]$
+\end{alertblock}
+
+\lyxframeend{}\lyxplainframe{Graphex Model}
+\begin{block}
+{Generative Model}
+
+Given $W$ an infinite random graph is sampled by:
+\begin{enumerate}
+\item Sample a (latent) unit rate Poisson process $\PP$ on $\boldsymbol{\theta}\times\boldsymbol{\vartheta}$.
+\item For each pair of points $(\theta_{i},\vartheta_{i}),\ (\theta_{j},\vartheta_{j})\in\PP$
+include edge $(\theta_{i},\theta_{j})$ with probability $W(\vartheta_{i},\vartheta_{j})$.
+\item Include $\theta_{i}$ as a vertex whenever $\theta_{i}$ participates
+in at least one edge. 
+\end{enumerate}
+\end{block}
+
+
+\begin{figure}
+\begin{centering}
+\includegraphics[width=0.8\paperwidth]{/home/victor/Documents/Exchangeability_and_Friends/kallenberg-exchangeable-graphs/kg-figures/graphex_model_nips_talk}
+\par\end{centering}
+
+\caption{Graphex Model. \textbf{Graphex $W$ is magenta heatmap}.}
+\end{figure}
+
+
+
+\lyxframeend{}\lyxplainframe{Sampling Distribution Results}
+
+Given graphex $W$ we know:
+\begin{enumerate}
+\item the expected number of vertices and edges as a function of the size
+$s$
+\item the asymptotic degree distribution 
+\item the asymptotic connectivity structure for certain families of graphexes. 
+\end{enumerate}
+
+\begin{block}
+{Punchline}
+
+These models include a wide range of interesting graphs.
+\end{block}
+
+\lyxframeend{}\section{Sampling and Estimation}
+
+
+\lyxframeend{}\lyxplainframe{Estimation}
+\begin{block}
+{Problem}
+
+How can we estimate a graphex?
+
+\end{block}
+
+\pause{}
+\begin{block}
+{Setup}
+\begin{itemize}
+\item Observation: $G_{s}$ (and $s$)
+\item Want Estimator: $\hat{W}_{G_{s}}:\NNReals^{2}\to[0,1]$
+\end{itemize}
+\end{block}
+
+\lyxframeend{}\lyxplainframe{Dense Graph Estimation}
+\begin{block}
+{Empirical Graphon}
+
+Let $\widetilde{W}_{n}:[0,1]^{2}\to\{0,1\}$ be the step function
+corresponding to the (arbitrarily permuted) adjacency matrix. $\widetilde{W}_{n}$
+is a general non-parametric estimator for graphons.
+
+\end{block}
+
+
+\begin{figure}
+\begin{centering}
+\includegraphics[width=0.75\paperwidth]{/home/victor/Documents/Exchangeability_and_Friends/kallenberg-exchangeable-graphs/kg-figures/OR-empirical_graphon}
+\par\end{centering}
+
+\caption{Empirical Graphon (from Orbanz Roy 2015)}
+\end{figure}
+
+
+
+\lyxframeend{}\lyxplainframe{Sparse Graph Estimation}
+\begin{block}
+{Empirical Graphex}
+
+Let \textrm{$\widetilde{W}^{G_{s}}$ be the empirical graphex of $G_{s}$,
+and define the empirical graphex $\widehat{W}^{G_{s}}:[0,\frac{v_{s}}{s}]\to\{0,1\}$
+by 
+\begin{align*}
+\widehat{W}^{G_{s}}(x,y) & =\widetilde{W}^{G_{s}}(\frac{v_{s}}{s}x,\frac{v_{s}}{s}y)
+\end{align*}
+}
+\end{block}
+
+\pause{}
+\begin{theorem}%{}
+Let $\widehat{G}_{r}^{(s)}$ be generated by $\widehat{W}^{G_{s}}(x,y)$
+and let $\eta_{r}^{G_{s}}$ be the (random, $G_{s}$ measurable) law
+of $\eta^{G_{s}}$. Then, almost surely, 
+\begin{align*}
+\lim_{s\to\infty}\|\eta_{r}^{G_{s}}-\law(G_{r})\|_{\mathrm{TV}} & \to0,
+\end{align*}
+where $\law(G_{r})$ is the law of a size $r$ graph generated by
+$W$ and $\|\cdot\|_{\mathrm{TV}}$ is the total variation distance. 
+
+
+\end{theorem}%{}
+
+\lyxframeend{}\lyxplainframe{Sparse Graph Estimation}
+
+Estimation is also possible even when the size $s$ is unknown \\
+(but it's a little bit too long to state here)
+
+
+\lyxframeend{}\lyxplainframe{Summary}
+\begin{block}
+<1->{Summary} 
+\begin{itemize}
+\item Representation theorem for sparse random graphs 
+\item Extends dense (graphon) theory to sparse graphs
+\item Formulas for sampling distribution properties in terms of graphex
+\item General non-parametric estimator
+\end{itemize}
+\end{block}
+
+\begin{block}
+<1->{Arxiv} 
+
+1512.03099
+
+\end{block}
+
+\lyxframeend{}
+\end{document}

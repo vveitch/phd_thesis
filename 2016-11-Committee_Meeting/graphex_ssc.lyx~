@@ -1,0 +1,2562 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+%\usetheme{Warsaw}
+% or ...
+\useoutertheme{wuerzburg}
+
+\useinnertheme[outline]{chamfered}
+
+\usecolortheme{shark}
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Dan's definition preamble
+\end_layout
+
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset FormulaMacro
+\newcommand{\defas}{\vcentcolon=}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset FormulaMacro
+\newcommand{\st}{\,:\,}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset FormulaMacro
+\newcommand{\dist}{\ \sim\ }
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset FormulaMacro
+\newcommand{\given}{\mid}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset FormulaMacro
+\newcommand{\distiid}{\overset{iid}{\dist}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset FormulaMacro
+\newcommand{\distind}{\overset{ind}{\dist}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Naturals}{\mathbb{N}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Rationals}{\mathbb{Q}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Reals}{\mathbb{R}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\BorelSets}{\mathcal{B}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Nats}{\mathbb{N}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Ints}{\mathbb{Z}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\NNInts}{\Ints_{+}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\NNExtInts}{\overline{\Ints}_{+}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Cantor}{\2^{\mathbb{N}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\NNReals}{\Reals_{+}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\as}{\textrm{ a.s.}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\epi}{\textrm{epi}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\intr}{\textrm{int}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\conv}{\textrm{conv}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cone}{\textrm{cone}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\aff}{\textrm{aff}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\renewcommand{\cone}{\textrm{cone}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dom}{\textrm{dom}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cl}{\textrm{cl}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ri}{\textrm{ri}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\grad}{\nabla}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\imp}{\Rightarrow}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\downto}{\!\downarrow\!}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\upto}{\!\uparrow\!}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\AND}{\wedge}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\OR}{\vee}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\NOT}{\neg}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\PowerSet}{\mathcal{P}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Measures}{\mathcal{M}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ProbMeasures}{\mathcal{M}_{1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\equaldist}{\overset{d}{=}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\inv}{^{-1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\norm}[1]{\lVert#1 \rVert}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\event}[1]{\left\lbrace #1 \right\rbrace }
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\tuple}[1]{\langle#1 \rangle}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\bspace}{\Omega}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\bsa}{\mathcal{A}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\borelspace}{(\bspace,\bsa)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\card}[1]{\##1}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\iid}{i.i.d.}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\gprocess}[2]{(#1)_{#2}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\nprocess}[3]{\gprocess{#1_{#3}}{#3 \in#2}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\process}[2]{\nprocess{#1}{#2}n}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Victor's definition preamble (modified to avoid conflict with Dan's)
+\end_layout
+
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\expect}[1]{\mathbb{E}\left[#1\right]}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\var}[1]{\mbox{var}\left[#1\right]}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\equalas}{\overset{\mbox{a.s.}}{=}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\renewcommand{\iid}{\distiid}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\abs}[1]{\lvert#1 \rvert}
+{|#1|}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\renewcommand{\norm}[1]{\lVert#1\rVert}
+{\|#1\|}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\inedge}[1]{e_{#1}^{\mbox{in}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\outedge}[1]{e_{#1}^{\mbox{out}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\intd}{\mathrm{d}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\suchthat}{\mid}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Pr}{P}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\convPr}{\xrightarrow{\mbox{p}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\floor}[1]{\lfloor#1\rfloor}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\asympLim}[1]{\ ,#1\rightarrow\infty}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Paper specific macros
+\end_layout
+
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\PP}{\Pi}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\PPnu}{\Pi_{\nu}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\vertexset}[1]{v\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\edgeset}[1]{e\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\PPbelowth}[1]{\Pi_{\nu,\le#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\PPaboveth}[1]{\Pi_{\nu,>#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\linverse}{^{-1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\threshold}{T_{\nu}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\popthreshold}{T_{\nu,\mbox{pop}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\popgraph}{P_{\nu}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\upperthreshold}{T_{\nu,u}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\numDegNu}[1]{N_{\nu,#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\newcommand{\law}{\mathcal{L}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+(Sparse) exchangeable random graphs
+\end_layout
+
+\begin_layout Author
+Victor
+\begin_inset space ~
+\end_inset
+
+Veitch 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\size scriptsize
+based on joint work with:
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size tiny
+Daniel
+\begin_inset space ~
+\end_inset
+
+M.
+\begin_inset space ~
+\end_inset
+
+Roy, Christian Borgs, Jennifer Chayes, Henry Cohn
+\size default
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Give the names in the same order as the appear in the paper.
+ 
+\end_layout
+
+\begin_layout Itemize
+Use the 
+\begin_inset Quotes eld
+\end_inset
+
+Institute mark
+\begin_inset Quotes erd
+\end_inset
+
+ inset (
+\family sans
+Insert\SpecialChar \menuseparator
+Custom Insets\SpecialChar \menuseparator
+InstituteMark
+\family default
+) only if the authors have different affiliations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Department of Statistical Sciences, University of Toronto 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Use the 
+\begin_inset Quotes eld
+\end_inset
+
+Institute mark
+\begin_inset Quotes erd
+\end_inset
+
+ inset (
+\family sans
+Insert\SpecialChar \menuseparator
+Custom Insets\SpecialChar \menuseparator
+InstituteMark
+\family default
+) only if there are several affiliations.
+\end_layout
+
+\begin_layout Itemize
+Keep it simple, no one is interested in your street address.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Universities of Somewhere and Elsewhere
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional, but mostly needed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Either use conference name or its abbreviation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Not really informative to the audience, more for people (including yourself)
+ who are reading the slides online
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pgfdeclareimage[height=0.5cm]{institution-logo}{figures/iqclogo.png}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+logo{
+\backslash
+pgfuseimage{institution-logo}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+If you wish to uncover everything in a step-wise fashion, uncomment the
+ following command:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+beamerdefaultoverlayspecification{<+->}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Overview and Results
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Big Picture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Motivating Problem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Need families of random graphs for modelling network structures
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+network: friendships among 
+\begin_inset Formula $n$
+\end_inset
+
+ users of a social network 
+\end_layout
+
+\begin_layout Itemize
+model: family of random graphs 
+\begin_inset Formula $(G_{n})_{n\in\Nats}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Sparse Networks
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Real world networks are sparsely connected
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Random graph models should be 
+\emph on
+sparse
+\emph default
+: 
+\begin_inset Formula $o(n^{2})$
+\end_inset
+
+ edges as number of observed nodes 
+\begin_inset Formula $n$
+\end_inset
+
+ becomes large.
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Problem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+No general framework for the statistical analysis of sparsely connected
+ networks.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Sparse Graphs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+We have no satisfactory answers to some fundamental questions:
+\end_layout
+
+\begin_layout Enumerate
+how should we parameterize the space of distributions on sparse graphs?
+ 
+\end_layout
+
+\begin_layout Enumerate
+what can we learn about a large graph if we observe only a small subgraph?
+ and what do we mean when we say 
+\begin_inset Quotes eld
+\end_inset
+
+observe
+\begin_inset Quotes erd
+\end_inset
+
+? 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Results (VR 2015)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+We derive and study a general class of random graphs suitable for modelling
+ network structures.
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Special cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All dense (graphon) models
+\end_layout
+
+\begin_layout Itemize
+Sparse graphs with e.g.
+ small world and power law behaviour
+\end_layout
+
+\begin_layout Itemize
+Caron & Fox models
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Graphs, Adjacency, and Pixel Pictures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/petersen.pdf
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size tiny
+[Lov12]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dense Graphs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Graph models
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Basic object: infinite random binary matrix 
+\begin_inset Formula $(X_{ij})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Random graphs: 
+\begin_inset Formula $(G_{n})_{n\in\Nats}$
+\end_inset
+
+ defined by taking adjacency matrix to be upper left 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ submatrix
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Joint exchangeability of infinite random matrices
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $(X_{ij})\equaldist(X_{\sigma(i)\sigma(j)})$
+\end_inset
+
+ for all permutations 
+\begin_inset Formula $\sigma\in S_{\infty}$
+\end_inset
+
+ of the positive integers
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Graphon Generative Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Aldous-Hoover (translated)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Every infinite exchangeable array has a representation in terms of a 
+\emph on
+graphon
+\emph default
+ 
+\begin_inset Formula $W:[0,1]^{2}\to[0,1]$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Given a graphon 
+\begin_inset Formula $W:[0,1]^{2}\to[0,1]$
+\end_inset
+
+, sample a random graph by:
+\end_layout
+
+\begin_layout Enumerate
+Assign each vertex 
+\begin_inset Formula $i$
+\end_inset
+
+ an iid 
+\begin_inset Formula $U[0,1]$
+\end_inset
+
+ latent random variable 
+\begin_inset Formula $U_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Include each edge 
+\begin_inset Formula $(i,j)$
+\end_inset
+
+ independently with probability 
+\begin_inset Formula $W(U_{i},U_{j})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+\begin_inset Note Note
+status open
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/graphon_figure_austere.png
+	display false
+	width 80page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Edge 
+\begin_inset Formula $(4,5)$
+\end_inset
+
+ is included with probability 
+\begin_inset Formula $W(0.3,0.9)=W(0.9,0.3)$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+The graphon 
+\begin_inset Formula $W$
+\end_inset
+
+ is shown as a heatmap on the right.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Representation Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Recipe for constructing statistical models
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assume a probabilistic symmetry on some infinite random structure
+\end_layout
+
+\begin_layout Itemize
+Associated representation theorem picks out privileged family of distributions
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Examples
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+de Finetti's representation theorem for exchangeable sequences
+\end_layout
+
+\begin_layout Itemize
+Aldous-Hoover-Kallenberg theorem for exchangeable arrays
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Caron & Fox 2014: (Sparse) Exchangeable Graphs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+6cm
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Key insights
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+adjacency matrix 
+\begin_inset Formula $\to$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+point process on 
+\begin_inset Formula $\NNReals^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+array joint exchangeability 
+\begin_inset Formula $\to$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+point process joint exchangeability
+\end_layout
+
+\end_deeper
+\begin_layout Column
+4cm
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/graph.jpg
+	width 50col%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/adjmeas.jpg
+	width 100col%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Graph edges correspond to points on 
+\begin_inset Formula $\NNReals^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+(Sparse) Graph Representation Theorem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Random structure: point process on 
+\begin_inset Formula $\NNReals^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Finite graph 
+\begin_inset Formula $G_{s}$
+\end_inset
+
+: truncate to 
+\begin_inset Formula $s\times s$
+\end_inset
+
+ box
+\end_layout
+
+\begin_layout Itemize
+Symmetry: joint exchangeability of point process
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+2-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Representation theorem*
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout AlertBlock
+Distribution characterized by a 
+\emph on
+graphex
+\emph default
+: 
+\begin_inset Formula $(I,S,W)$
+\end_inset
+
+ where 
+\begin_inset Formula $I\in\NNReals$
+\end_inset
+
+, 
+\begin_inset Formula $S:\NNReals\to\NNReals$
+\end_inset
+
+, and the 
+\emph on
+graphon
+\emph default
+ 
+\begin_inset Formula $W:\NNReals^{2}\to[0,1]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset Formula $W$
+\end_inset
+
+ is symmetric, and 
+\begin_inset Formula $S$
+\end_inset
+
+ and 
+\begin_inset Formula $W$
+\end_inset
+
+ satisfy certain weak integrability conditions (integrability suffices).
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+3-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Restrict to 
+\begin_inset Formula $(0,0,W)$
+\end_inset
+
+ for integrable W for this talk.
+\end_layout
+
+\end_deeper
+\begin_layout PlainFrame
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Graphex Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Generative Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+Given 
+\begin_inset Formula $W$
+\end_inset
+
+ an infinite random graph is sampled by:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Sample a (latent) unit rate Poisson process 
+\begin_inset Formula $\PP$
+\end_inset
+
+ on 
+\begin_inset Formula $\boldsymbol{\theta}\times\boldsymbol{\vartheta}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+For each pair of points 
+\begin_inset Formula $(\theta_{i},\vartheta_{i}),\ (\theta_{j},\vartheta_{j})\in\PP$
+\end_inset
+
+ include edge 
+\begin_inset Formula $(\theta_{i},\theta_{j})$
+\end_inset
+
+ with probability 
+\begin_inset Formula $W(\vartheta_{i},\vartheta_{j})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Include 
+\begin_inset Formula $\theta_{i}$
+\end_inset
+
+ as a vertex whenever 
+\begin_inset Formula $\theta_{i}$
+\end_inset
+
+ participates in at least one edge.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/victor/Documents/Exchangeability_and_Friends/kallenberg-exchangeable-graphs/kg-figures/graphex_model_nips_talk.png
+	width 80page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Graphex Model.
+ 
+\series bold
+Graphex 
+\begin_inset Formula $W$
+\end_inset
+
+ is magenta heatmap
+\series default
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Sampling Distribution Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Given graphex 
+\begin_inset Formula $W$
+\end_inset
+
+ we know:
+\end_layout
+
+\begin_layout Enumerate
+the expected number of vertices and edges as a function of the size 
+\begin_inset Formula $s$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+the asymptotic degree distribution 
+\end_layout
+
+\begin_layout Enumerate
+the asymptotic connectivity structure for certain families of graphexes.
+ 
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Punchline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+These models include a wide range of interesting graphs.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Sampling and Estimation
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Problem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+How can we estimate a graphex?
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Observation: 
+\begin_inset Formula $G_{s}$
+\end_inset
+
+ (and 
+\begin_inset Formula $s$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Want Estimator: 
+\begin_inset Formula $\hat{W}_{G_{s}}:\NNReals^{2}\to[0,1]$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dense Graph Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Empirical Graphon
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Let 
+\begin_inset Formula $\widetilde{W}_{n}:[0,1]^{2}\to\{0,1\}$
+\end_inset
+
+ be the step function corresponding to the (arbitrarily permuted) adjacency
+ matrix.
+ 
+\begin_inset Formula $\widetilde{W}_{n}$
+\end_inset
+
+ is a general non-parametric estimator for graphons.
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/victor/Documents/Exchangeability_and_Friends/kallenberg-exchangeable-graphs/kg-figures/OR-empirical_graphon.pdf
+	width 75page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Empirical Graphon (from Orbanz Roy 2015)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Sparse Graph Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Empirical Graphex
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+Let 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\widetilde{W}^{G_{s}}$
+\end_inset
+
+ be the empirical graphex of 
+\begin_inset Formula $G_{s}$
+\end_inset
+
+, and define the empirical graphex 
+\begin_inset Formula $\widehat{W}^{G_{s}}:[0,\frac{v_{s}}{s}]\to\{0,1\}$
+\end_inset
+
+ by 
+\begin_inset Formula 
+\begin{align*}
+\widehat{W}^{G_{s}}(x,y) & =\widetilde{W}^{G_{s}}(\frac{v_{s}}{s}x,\frac{v_{s}}{s}y)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Theorem
+Let 
+\begin_inset Formula $\widehat{G}_{r}^{(s)}$
+\end_inset
+
+ be generated by 
+\begin_inset Formula $\widehat{W}^{G_{s}}(x,y)$
+\end_inset
+
+ and let 
+\begin_inset Formula $\eta_{r}^{G_{s}}$
+\end_inset
+
+ be the (random, 
+\begin_inset Formula $G_{s}$
+\end_inset
+
+ measurable) law of 
+\begin_inset Formula $\eta^{G_{s}}$
+\end_inset
+
+.
+ Then, almost surely, 
+\begin_inset Formula 
+\begin{align*}
+\lim_{s\to\infty}\|\eta_{r}^{G_{s}}-\law(G_{r})\|_{\mathrm{TV}} & \to0,
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\law(G_{r})$
+\end_inset
+
+ is the law of a size 
+\begin_inset Formula $r$
+\end_inset
+
+ graph generated by 
+\begin_inset Formula $W$
+\end_inset
+
+ and 
+\begin_inset Formula $\|\cdot\|_{\mathrm{TV}}$
+\end_inset
+
+ is the total variation distance.
+ 
+\end_layout
+
+\begin_layout Theorem
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Sparse Graph Estimation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Estimation is also possible even when the size 
+\begin_inset Formula $s$
+\end_inset
+
+ is unknown 
+\begin_inset Newline newline
+\end_inset
+
+(but it's a little bit too long to state here)
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Summary
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Summary
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Representation theorem for sparse random graphs 
+\end_layout
+
+\begin_layout Itemize
+Extends dense (graphon) theory to sparse graphs
+\end_layout
+
+\begin_layout Itemize
+Formulas for sampling distribution properties in terms of graphex
+\end_layout
+
+\begin_layout Itemize
+General non-parametric estimator
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+1-
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Arxiv
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+1512.03099
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_body
+\end_document

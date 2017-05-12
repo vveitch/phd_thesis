@@ -1,0 +1,23 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\vspace {-\cftbeforepartskip }
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {i}\spacedlowsmallcaps {Overview}}{1}{part.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {The Showcase}}{3}{part.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{5}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.0.1}The Class of Random Graphs Arising from Exchangeable Random Measures}{7}{subsection.1.0.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.0.2}Sampling and Estimation for (Sparse) Exchangeable Graphs}{8}{subsection.1.0.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.0.3}Sampling Perspectives on (Sparse) Exchangeable Graphs}{8}{subsection.1.0.3}
+\defcounter {refsection}{0}\relax 
+\vspace {\beforebibskip }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{11}{dummy.7}
