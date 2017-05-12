@@ -126,13 +126,13 @@
 %*******************************************************
 \input{commenting.tex}
 %% For submission, uncomment these lines to make all annotations render as blank.
-%\renewcommand{\LATER}[1]{}
-%\renewcommand{\fLATER}[1]{}
-%\renewcommand{\TBD}[1]{}
-%\renewcommand{\fTBD}[1]{}
-%\renewcommand{\PROBLEM}[1]{}
-%\renewcommand{\fPROBLEM}[1]{}
-%\renewcommand{\NA}[1]{#1}  %% Note, NA's pass through!
+\renewcommand{\LATER}[1]{}
+\renewcommand{\fLATER}[1]{}
+\renewcommand{\TBD}[1]{}
+\renewcommand{\fTBD}[1]{}
+\renewcommand{\PROBLEM}[1]{}
+\renewcommand{\fPROBLEM}[1]{}
+\renewcommand{\NA}[1]{#1}  %% Note, NA's pass through!
 
 
 %********************************************************************
@@ -475,11 +475,16 @@
 %\include{FrontBackmatter/Titleback}
 %\cleardoublepage\include{FrontBackmatter/Dedication}
 %\cleardoublepage\include{FrontBackmatter/Foreword}
-\cleardoublepage\include{FrontBackmatter/Abstract}
-\cleardoublepage\include{FrontBackmatter/Publications}
-\cleardoublepage\include{FrontBackmatter/Acknowledgments}
+\include{FrontBackmatter/Abstract}
+\include{FrontBackmatter/Attribution}
+\include{FrontBackmatter/Acknowledgments}
 \pagestyle{scrheadings}
-\cleardoublepage\include{FrontBackmatter/Contents}
+\include{FrontBackmatter/Contents}
+
+% \cleardoublepage\include{FrontBackmatter/Attribution}
+% \cleardoublepage\include{FrontBackmatter/Acknowledgments}
+% \pagestyle{scrheadings}
+% \cleardoublepage\include{FrontBackmatter/Contents}
 %********************************************************************
 % Mainmatter
 %*******************************************************
@@ -507,8 +512,8 @@
 % Other Stuff in the Back
 %*******************************************************
 \cleardoublepage\include{FrontBackmatter/Bibliography}
-\cleardoublepage\include{FrontBackmatter/Declaration}
-\cleardoublepage\include{FrontBackmatter/Colophon}
+% \cleardoublepage\include{FrontBackmatter/Declaration}
+% \cleardoublepage\include{FrontBackmatter/Colophon}
 % ********************************************************************
 % Game Over: Restore, Restart, or Quit?
 %*******************************************************

@@ -3,11 +3,11 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: VictorVeitchPhDThesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
-A level-1 auxiliary file: FrontBackmatter/Dedication.aux
 A level-1 auxiliary file: FrontBackmatter/Abstract.aux
-A level-1 auxiliary file: FrontBackmatter/Publications.aux
+A level-1 auxiliary file: FrontBackmatter/Attribution.aux
 A level-1 auxiliary file: FrontBackmatter/Acknowledgments.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
+A level-1 auxiliary file: Chapters/intro.aux
 A level-1 auxiliary file: Chapters/VR15.aux
 A level-1 auxiliary file: Chapters/VR16.aux
 A level-1 auxiliary file: Chapters/BCCV17.aux
@@ -25,68 +25,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 14313 items from 5000.
+Reallocated field_info (elt_size=4) to 13062 items from 5000.
 Database file #1: VictorVeitchPhDThesis-blx.bib
 Database file #2: random_graphs.bib
-Warning--I didn't find a database entry for "knuth:1974"
-Warning--I didn't find a database entry for "Newman:2009"
-Warning--I didn't find a database entry for "Durrett:2006"
-Warning--I didn't find a database entry for "Orbanz_Roy_Exchangeable_Struct"
-Warning--I didn't find a database entry for "Caron_Fox_CRM_Graphs"
-Warning--I didn't find a database entry for "Bollobas:Janson:Riordan:2007"
-Warning--I didn't find a database entry for "Bollobas:Riordan:2007"
-Warning--I didn't find a database entry for "DeFinetti:1930"
-Warning--I didn't find a database entry for "DeFinetti:1937"
-Warning--I didn't find a database entry for "Hewitt:Savage:1955"
-Warning--I didn't find a database entry for "Aldous:1983"
-Warning--I didn't find a database entry for "Hoff2002"
-Warning--I didn't find a database entry for "Airoldi2008"
-Warning--I didn't find a database entry for "Miller2009"
-Warning--I didn't find a database entry for "Kingman:1993"
-Warning--I didn't find a database entry for "bollobas:2001"
-Warning--I didn't find a database entry for "Orbanz:2016"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 50 entries,
+You've used 58 entries,
             6047 wiz_defined-function locations,
-            1533 strings with 20832 characters,
-and the built_in function-call counts, 180256 in all, are:
-= -- 6361
-> -- 7101
-< -- 2216
-+ -- 2431
-- -- 2998
-* -- 15303
-:= -- 11109
+            1558 strings with 22422 characters,
+and the built_in function-call counts, 208084 in all, are:
+= -- 7572
+> -- 8018
+< -- 2579
++ -- 2719
+- -- 3299
+* -- 17252
+:= -- 12628
 add.period$ -- 0
-call.type$ -- 50
-change.case$ -- 49
+call.type$ -- 58
+change.case$ -- 57
 chr.to.int$ -- 156
-cite$ -- 98
-duplicate$ -- 19955
-empty$ -- 18010
-format.name$ -- 4085
-if$ -- 40704
+cite$ -- 114
+duplicate$ -- 23117
+empty$ -- 20909
+format.name$ -- 4612
+if$ -- 47190
 int.to.chr$ -- 0
-int.to.str$ -- 141
+int.to.str$ -- 166
 missing$ -- 0
-newline$ -- 1538
-num.names$ -- 2619
-pop$ -- 15907
+newline$ -- 1739
+num.names$ -- 3106
+pop$ -- 18477
 preamble$ -- 1
-purify$ -- 1015
+purify$ -- 1224
 quote$ -- 0
-skip$ -- 11338
+skip$ -- 13262
 stack$ -- 0
-substring$ -- 3486
-swap$ -- 7131
-text.length$ -- 1873
-text.prefix$ -- 65
+substring$ -- 4265
+swap$ -- 8188
+text.length$ -- 2124
+text.prefix$ -- 79
 top$ -- 1
-type$ -- 1887
+type$ -- 2191
 warning$ -- 0
-while$ -- 1141
+while$ -- 1301
 width$ -- 0
-write$ -- 1487
-(There were 17 warnings)
+write$ -- 1680

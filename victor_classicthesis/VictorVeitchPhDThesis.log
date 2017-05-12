@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.11)  12 MAY 2017 02:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.11)  12 MAY 2017 11:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1587,7 +1587,7 @@ Package biblatex Info: ... file 'english.lbx' found.
 File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
 (./VictorVeitchPhDThesis.aux (./FrontBackmatter/Titlepage.aux)
-(./FrontBackmatter/Abstract.aux) (./FrontBackmatter/Publications.aux)
+(./FrontBackmatter/Abstract.aux) (./FrontBackmatter/Attribution.aux)
 (./FrontBackmatter/Acknowledgments.aux) (./FrontBackmatter/Contents.aux)
 (./Chapters/intro.aux) (./Chapters/VR15.aux) (./Chapters/VR16.aux)
 (./Chapters/BCCV17.aux
@@ -1597,8 +1597,7 @@ LaTeX Warning: Label `prelim' multiply defined.
 
 LaTeX Warning: Label `prelim@cref' multiply defined.
 
-) (./FrontBackmatter/Bibliography.aux) (./FrontBackmatter/Declaration.aux)
-(./FrontBackmatter/Colophon.aux))
+) (./FrontBackmatter/Bibliography.aux))
 \openout1 = `VictorVeitchPhDThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 462.
@@ -1632,9 +1631,6 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'VictorVeitchPhDThesis.bbl' found.
 
 (./VictorVeitchPhDThesis.bbl)
-Package biblatex Info: ... file 'VictorVeitchPhDThesis1-blx.bbl' not found.
-
-No file VictorVeitchPhDThesis1-blx.bbl.
 Package biblatex Info: Reference section=0 on input line 462.
 Package biblatex Info: Reference segment=0 on input line 462.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1646,6 +1642,7 @@ Package caption Info: End \AtBeginDocument code.
 Package scrhack Info: undefining \float@addtolists on input line 462.
 \AtBeginShipoutBox=\box33
 Package hyperref Info: Link coloring ON on input line 462.
+
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1713,26 +1710,11 @@ Package cleveref Info: loaded `english' language definitions on input line 465.
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2
-
-
-
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \openout2 = `FrontBackmatter/Abstract.aux'.
 
- (./FrontBackmatter/Abstract.tex
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 15.
-
-(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 15.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `fvm' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 15.
+ (./FrontBackmatter/Abstract.tex)
+LaTeX Font Info:    Try loading font information for U+zeur on input line 478.
 
 (/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
@@ -1740,7 +1722,7 @@ File: uzeur.fd 2005/01/11 v4.0 (WaS)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 15.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 478.
 
 (/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
@@ -1748,13 +1730,14 @@ File: uzeus.fd 2005/01/11 v4.0 (WaS)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eus.cfg
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 15.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 478.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 15.
-
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 478
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1770,58 +1753,26 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 15.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 478.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)) [3
-
-] [4
-
+) [2
 
 
 ]
-\openout2 = `FrontBackmatter/Publications.aux'.
+\openout2 = `FrontBackmatter/Attribution.aux'.
 
 
-(./FrontBackmatter/Publications.tex
-Package biblatex Info: Reference section=1 on input line 10.
-\openout3 = `VictorVeitchPhDThesis1-blx.aux'.
+(./FrontBackmatter/Attribution.tex) [3
 
-Package biblatex Info: Setting label 'refsection:1' on input line 10.
-
-
-LaTeX Warning: Empty bibliography on input line 13.
-
-Package biblatex Info: Reference section=0 on input line 14.
-)
-Overfull \hbox (6.14833pt too wide) in paragraph at lines 16--479
-[]\T1/pplj/m/it/10.95 Attention\T1/pplj/m/n/10.95 : This re-quires a sep-a-rate
- run of \T1/fvm/m/n/10.95 bibtex \T1/pplj/m/n/10.95 for your \T1/fvm/m/n/10.95 
-refsection\T1/pplj/m/n/10.95 ,
- []
-
-[5
-
-
-
-] [6
 
 
 
 ]
 \openout2 = `FrontBackmatter/Acknowledgments.aux'.
 
- (./FrontBackmatter/Acknowledgments.tex
-Overfull \hbox (2.90268pt too wide) in paragraph at lines 25--35
-[]\T1/pplj/m/n/10.95 Regarding the ty-pog-ra-phy and other help, many thanks go
- to Marco
- []
-
-) [7
-
-] [8
-
+ (./FrontBackmatter/Acknowledgments.tex) [4
 
 
 ]
@@ -1873,7 +1824,8 @@ Overfull \hbox (24.57121pt too wide) in paragraph at lines 77--77
  [][] []\T1/pplj/m/n/10.95 Asymptotic Equiv-a-lence of Sam-pling Schemes []  
  []
 
-[9
+[5
+
 
 
 
@@ -1903,148 +1855,13 @@ Overfull \hbox (2.93172pt too wide) in paragraph at lines 117--117
 1: chapter
 1: chapter
 1: section
-Package cleveref Info: loaded `english' language definitions on input line 18.
-[10]
-Package tocbasic Info: character protrusion at lof deactivated on input line 31
-.
- (./VictorVeitchPhDThesis.lof
-Package cleveref Info: loaded `english' language definitions on input line 3.
-Package cleveref Info: loaded `english' language definitions on input line 7.
-LaTeX Font Info:    Try loading font information for U+fplmbb on input line 11.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ufplmbb.fd
-File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
-Overfull \hbox (7.16072pt too wide) in paragraph at lines 11--11
- \T1/pplj/m/n/10.95 able graph gen-er-ated by a graphex $\U/zeus/m/n/10.95 W ½ 
-¨\U/zeur/m/n/10.95 I\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 S\T1/pplj/m/n/10.95 
-, \U/zeur/m/n/10.95 W\U/zeus/m/n/10.95 ©$ 
- []
+Package cleveref Info: loaded `english' language definitions on input line 482.
 
-
-Overfull \hbox (1.4422pt too wide) in paragraph at lines 11--11
- \T1/pplj/m/n/10.95 al-ized. Sec-ond panel: Edges due to the graphon 
- []
-
-
-Overfull \hbox (9.38498pt too wide) in paragraph at lines 11--11
- \T1/pplj/m/n/10.95 graphon com-po-nent ap-pears as (sym-met-ric pairs 
- []
-
-
-Overfull \hbox (14.57378pt too wide) in paragraph at lines 11--11
- \T1/pplj/m/n/10.95 black line) ap-pear in the graph. The edges $\U/zeus/m/n/10
-.95 f\U/zeur/m/n/10.95 ^^R[]\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 ^^[[]\U/zeus
-/m/n/10.95 g$ 
- []
-
-
-Overfull \hbox (12.97661pt too wide) in paragraph at lines 15--15
- [][] []\T1/pplj/m/n/10.95 (Kallenberg ex-change-able graph) Ran-dom graphs 
- []
-
-
-Overfull \hbox (0.85493pt too wide) in paragraph at lines 15--15
- \T1/pplj/m/n/10.95 are char-ac-ter-ized by three (po-ten-tially ran-dom) 
- []
-
-[11
-
-]
-Overfull \hbox (8.62383pt too wide) in paragraph at lines 17--17
- \T1/pplj/m/n/10.95 (lower right). Con-di-tional on $\U/zeur/m/n/10.95 W$\T1/pp
-lj/m/n/10.95 , a ran-dom graph 
- []
-
-
-Overfull \hbox (13.34546pt too wide) in paragraph at lines 17--17
- \T1/pplj/m/n/10.95 in the right square rep-re-sent the val-ues of $\U/zeus/m/n
-/10.95 ¨\U/zeur/m/n/10.95 u[]\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 u[]\U/zeus/
-m/n/10.95 ©$ 
- []
-
-
-Overfull \hbox (3.32564pt too wide) in paragraph at lines 17--17
- \T1/pplj/m/n/10.95 graph re-al-iza-tion as an ad-ja-cency ma-trix. []  
- []
-
-Package cleveref Info: loaded `english' language definitions on input line 19.
-[12]
-Overfull \hbox (3.45006pt too wide) in paragraph at lines 19--19
- \T1/pplj/m/n/10.95 Points of the pro-cess cor-re-spond to graph edges 
- []
-
-
-Overfull \hbox (9.14407pt too wide) in paragraph at lines 21--21
- \T1/pplj/m/n/10.95 ver-tices of the graph con-nect to the be-low thresh- 
- []
-
-
-Overfull \hbox (8.58237pt too wide) in paragraph at lines 23--23
- \T1/pplj/m/n/10.95 are ig-nored, these are marked in ma-genta. []  
- []
-
-
-Overfull \hbox (11.30125pt too wide) in paragraph at lines 27--27
- \T1/pplj/m/n/10.95 with this or-der-ing the di-lated em-pir-i-cal graphons 
- []
-
-Package cleveref Info: loaded `english' language definitions on input line 29.
-[13]
-Overfull \hbox (7.32635pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10.95 edges from the $\U/zeur/m/n/10.95 S$ \T1/pplj/m/n/10.95 com
--po-nent are shown in green, 
- []
-
-
-Overfull \hbox (3.45464pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10.95 of the same es-ti-ma-tor. The left-most panel shows 
- []
-
-Package cleveref Info: loaded `english' language definitions on input line 33.
-[14]
-Overfull \hbox (13.66643pt too wide) in paragraph at lines 33--33
- \T1/pplj/m/n/10.95 cor-re-spond-ing stretched em-pir-i-cal graphon based 
- []
-
-
-Overfull \hbox (4.0085pt too wide) in paragraph at lines 33--33
- \T1/pplj/m/n/10.95 pic-ture ap-prox-i-ma-tions to the lim-it-ing graphon. 
- []
-
-
-Overfull \hbox (159.38855pt too wide) in paragraph at lines 33--33
- \T1/pplj/m/n/10.95 the dis-tance be-tween them is then $[][] []$, 
- []
-
-)
-\tf@lof=\write7
-\openout7 = `VictorVeitchPhDThesis.lof'.
-
-Package cleveref Info: loaded `english' language definitions on input line 34.
- [15]
-Package tocbasic Info: character protrusion at lot deactivated on input line 42
-.
- (./VictorVeitchPhDThesis.lot
-Package cleveref Info: loaded `english' language definitions on input line 3.
-Package cleveref Info: loaded `english' language definitions on input line 7.
-)
-\tf@lot=\write8
-\openout8 = `VictorVeitchPhDThesis.lot'.
-
- (./VictorVeitchPhDThesis.lol
-Package cleveref Info: loaded `english' language definitions on input line 2.
-Package cleveref Info: loaded `english' language definitions on input line 6.
-)
-\tf@lol=\write9
-\openout9 = `VictorVeitchPhDThesis.lol'.
-
-) [16]
+ [6]
 \openout2 = `Chapters/intro.aux'.
 
-
-(./Chapters/intro.tex
+ (./Chapters/intro.tex
 chapter 1.
 [1
 
@@ -2056,25 +1873,18 @@ chapter 1.
 
 
 ]
-Package cleveref Info: loaded `english' language definitions on input line 92.
- [2] <figures/anim.pdf, id=469, 705.0059pt x 227.13457pt>
-File: figures/anim.pdf Graphic file (type pdf)
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 44.
 
-<use figures/anim.pdf>
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+)
+Package cleveref Info: loaded `english' language definitions on input line 92.
+ [2]
+<figures/anim.pdf, id=375, 705.0059pt x 227.13457pt>
+File: figures/anim.pdf Graphic file (type pdf)
+ <use figures/anim.pdf>
 Package pdftex.def Info: figures/anim.pdf used on input line 118.
 (pdftex.def)             Requested size: 332.64185pt x 107.16914pt.
-
-
-LaTeX Warning: Citation 'Borgs:Chayes:Cohn:Veitch:2017' on page 3 undefined on 
-input line 144.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 144.
-
-Overfull \hbox (45.3026pt too wide) in paragraph at lines 143--147
-\T1/pplj/m/n/10.95 cor-re-spond to the pa-pers [[][]VR15[][]], [[][]VR16[][]] a
-nd [[]]
- []
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -2094,13 +1904,10 @@ pa-per [[][]Jan17[][]]
 Package cleveref Info: loaded `english' language definitions on input line 190.
 
 [5]
-
-LaTeX Warning: Citation 'Lovasz:2012' on page 6 undefined on input line 202.
-
 Package cleveref Info: loaded `english' language definitions on input line 229.
 
-[6])
-Package cleveref Info: loaded `english' language definitions on input line 491.
+ [6])
+Package cleveref Info: loaded `english' language definitions on input line 496.
 
  [7]
 \openout2 = `Chapters/VR15.aux'.
@@ -2113,51 +1920,16 @@ Package cleveref Info: loaded `english' language definitions on input line 491.
 ]
 chapter 2.
 
-LaTeX Warning: Citation 'Newman:2009' on page 9 undefined on input line 133.
-
-
-LaTeX Warning: Citation 'Durrett:2006' on page 9 undefined on input line 133.
-
-
-Overfull \hbox (47.53409pt too wide) in paragraph at lines 119--134
+Overfull \hbox (11.62909pt too wide) in paragraph at lines 119--134
 \T1/pplj/m/n/10.95 may have varies across many or-ders of mag-ni-tude) are com-
-mon [[];
+mon [[][]New09[][];
  []
 
 [9]
 
-LaTeX Warning: Citation 'Orbanz_Roy_Exchangeable_Struct' on page 10 undefined o
-n input line 158.
-
-
-Overfull \hbox (5.57912pt too wide) in paragraph at lines 154--162
-\T1/pplj/m/n/10.95 sump-tions [[]]. In-deed, we show that
- []
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 174.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <6> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 174.
-
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 197.
-
-
-LaTeX Warning: Citation 'Orbanz_Roy_Exchangeable_Struct' on page 10 undefined o
-n input line 199.
 
 Package cleveref Info: loaded `english' language definitions on input line 201.
 
@@ -2167,20 +1939,16 @@ Overfull \hbox (71.92542pt too wide) has occurred while \output is active
  []
 
 [10]
-
-LaTeX Warning: Citation 'Caron_Fox_CRM_Graphs' on page 11 undefined on input li
-ne 219.
-
 Package cleveref Info: loaded `english' language definitions on input line 254.
 
-[11]
+ [11]
 Overfull \hbox (16.76917pt too wide) in paragraph at lines 255--260
 \T1/pplj/m/n/10.95 ran-dom) graphex. Graphexes are the sparse graph ana-logues 
 of graphons
  []
 
 
-<figures/graph_model_figure_v2_austere_v2.png, id=559, 1681.482pt x 1697.542pt>
+<figures/graph_model_figure_v2_austere_v2.png, id=473, 1681.482pt x 1697.542pt>
 File: figures/graph_model_figure_v2_austere_v2.png Graphic file (type png)
 <use figures/graph_model_figure_v2_austere_v2.png>
 Package pdftex.def Info: figures/graph_model_figure_v2_austere_v2.png used on i
@@ -2221,50 +1989,9 @@ Overfull \hbox (71.92542pt too wide) has occurred while \output is active
  []
 
 [16]
-
-LaTeX Warning: Citation 'Bollobas:Janson:Riordan:2007' on page 17 undefined on 
-input line 1377.
-
-
-LaTeX Warning: Citation 'Bollobas:Riordan:2007' on page 17 undefined on input l
-ine 1377.
-
-
-Overfull \hbox (93.98856pt too wide) in paragraph at lines 1374--1399
-\T1/pplj/m/n/10.95 the num-ber of ver-tices. Ex-am-ples of such mod-els abound 
-[[];
- []
-
-
-Overfull \hbox (2.79222pt too wide) in paragraph at lines 1374--1399
-\T1/pplj/m/n/10.95 sis-tent es-ti-ma-tors have been de-vel-oped [[][]WO13[][]; 
-[][]BCCG15[][]; [][]BCS15[][]]. Each
- []
-
-
-LaTeX Warning: Citation 'Orbanz_Roy_Exchangeable_Struct' on page 17 undefined o
-n input line 1459.
-
-
-Overfull \hbox (15.87767pt too wide) in paragraph at lines 1449--1460
-\T1/pplj/m/n/10.95 low-ing de-vel-op-ment owes much to [[]],
- []
-
 Package cleveref Info: loaded `english' language definitions on input line 1460
 .
-[17]
-
-LaTeX Warning: Citation 'DeFinetti:1930' on page 18 undefined on input line 148
-2.
-
-
-LaTeX Warning: Citation 'DeFinetti:1937' on page 18 undefined on input line 148
-2.
-
-
-LaTeX Warning: Citation 'Hewitt:Savage:1955' on page 18 undefined on input line
- 1482.
-
+ [17]
 Package cleveref Info: loaded `english' language definitions on input line 1546
 .
 
@@ -2294,21 +2021,16 @@ Overfull \hbox (7.46167pt too wide) in paragraph at lines 1658--1672
 n-er-a-tive model
  []
 
-<figures/graphon_figure_austere_v2.png, id=650, 1362.691pt x 1208.515pt>
+<figures/graphon_figure_austere_v2.png, id=578, 1362.691pt x 1208.515pt>
 File: figures/graphon_figure_austere_v2.png Graphic file (type png)
 
 <use figures/graphon_figure_austere_v2.png>
 Package pdftex.def Info: figures/graphon_figure_austere_v2.png used on input li
 ne 1675.
 (pdftex.def)             Requested size: 168.0pt x 148.98022pt.
-
-
-LaTeX Warning: Citation 'Caron_Fox_CRM_Graphs' on page 21 undefined on input li
-ne 1717.
-
 Package cleveref Info: loaded `english' language definitions on input line 1728
 .
-[21]
+ [21]
 Package cleveref Info: loaded `english' language definitions on input line 1755
 .
 
@@ -2317,7 +2039,7 @@ Overfull \hbox (71.92542pt too wide) has occurred while \output is active
  []
 
 [22 <./figures/graphon_figure_austere_v2.png>]
-<figures/random_measure_graph_correspondence_austere.png, id=673, 1942.457pt x 
+<figures/random_measure_graph_correspondence_austere.png, id=601, 1942.457pt x 
 806.212pt>
 File: figures/random_measure_graph_correspondence_austere.png Graphic file (typ
 e png)
@@ -2326,13 +2048,9 @@ Package pdftex.def Info: figures/random_measure_graph_correspondence_austere.pn
 g used on input line 1759.
 (pdftex.def)             Requested size: 168.0pt x 69.72653pt.
 
-
-LaTeX Warning: Citation 'Aldous:1983' on page 23 undefined on input line 1793.
-
-
-Overfull \hbox (44.37027pt too wide) in paragraph at lines 1789--1796
+Overfull \hbox (8.93613pt too wide) in paragraph at lines 1789--1796
 \T1/pplj/m/n/10.95 Al-dous, who also con-jec-tured a con-crete rep-re-sen-ta-ti
-on the-o-rem [[]],
+on the-o-rem [[][]Ald85[][],
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 1904
@@ -2349,10 +2067,6 @@ Overfull \hbox (71.92542pt too wide) has occurred while \output is active
 Package cleveref Info: loaded `english' language definitions on input line 2010
 .
  [25]
-
-LaTeX Warning: Citation 'Caron_Fox_CRM_Graphs' on page 26 undefined on input li
-ne 2052.
-
 Package cleveref Info: loaded `english' language definitions on input line 2077
 .
 
@@ -2366,6 +2080,8 @@ Overfull \hbox (1.3588pt too wide) in paragraph at lines 2098--2103
 ighted graphs
  []
 
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 2105.
 Package hyperref Info: bookmark level for unknown defn defaults to 0 on input l
 ine 2105.
 Package cleveref Info: loaded `english' language definitions on input line 2121
@@ -2450,21 +2166,6 @@ Overfull \hbox (71.92542pt too wide) has occurred while \output is active
 Package cleveref Info: loaded `english' language definitions on input line 2410
 .
  [31]
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 2434.
-
-
 Overfull \hbox (32.94652pt too wide) in paragraph at lines 2444--2446
 []\T1/pplj/b/n/10.95 Definition 2.4.12. []\T1/pplj/m/n/10.95 The \T1/pplj/m/it/
 10.95 Kallen-berg graphon marginal \T1/pplj/m/n/10.95 is $\U/zeur/m/n/10.95 ^^V
@@ -2499,44 +2200,14 @@ Overfull \hbox (71.92542pt too wide) has occurred while \output is active
  []
 
 [34]
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 2650.
-
-
-LaTeX Warning: Citation 'Caron_Fox_CRM_Graphs' on page 35 undefined on input li
-ne 2650.
-
-Package cleveref Info: loaded `english' language definitions on input line 2694
+Package cleveref Info: loaded `english' language definitions on input line 2695
 .
-[35]
-
-LaTeX Warning: Citation 'Newman:2009' on page 36 undefined on input line 2717.
-
-
-LaTeX Warning: Citation 'Durrett:2006' on page 36 undefined on input line 2717.
-
-
-
-Overfull \hbox (5.17621pt too wide) in paragraph at lines 2716--2725
-\U/zeur/m/n/10.95 y\U/zeus/m/n/10.95 Ý$\T1/pplj/m/n/10.95 . Ap-plied net-works 
-folk wis-dom [[]; []] holds
- []
-
+ [35]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
 
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <14.4> not available
 (Font)              Font shape `T1/cmr/m/sc' tried instead on input line 2734.
@@ -2572,11 +2243,6 @@ Overfull \hbox (41.65778pt too wide) in paragraph at lines 2815--2815
 Package cleveref Info: loaded `english' language definitions on input line 2821
 .
 [37]
-
-LaTeX Warning: Citation 'Kingman:1993' on page 38 undefined on input line 2833.
-
-
-
 Overfull \hbox (7.21346pt too wide) in paragraph at lines 2840--2840
 [] 
  []
@@ -2865,10 +2531,6 @@ Overfull \hbox (6.08817pt too wide) in paragraph at lines 3968--3971
 /m/n/10.95 ½
  []
 
-
-LaTeX Warning: Citation 'bollobas:2001' on page 58 undefined on input line 4010
-.
-
 Package cleveref Info: loaded `english' language definitions on input line 4030
 .
 
@@ -2876,7 +2538,7 @@ Overfull \hbox (71.92542pt too wide) has occurred while \output is active
 []|[]|  
  []
 
-[58] <figures/sep_structure.png, id=1262, 981.6675pt x 949.5475pt>
+[58] <figures/sep_structure.png, id=1203, 981.6675pt x 949.5475pt>
 File: figures/sep_structure.png Graphic file (type png)
 
 <use figures/sep_structure.png>
@@ -2897,10 +2559,6 @@ Overfull \hbox (45.91501pt too wide) in paragraph at lines 4166--4169
 []\T1/pplj/m/it/10.95 Every el-e-ment of $\U/zeur/m/n/10.95 ^^E[]$ \T1/pplj/m/i
 t/10.95 con-nects to an edge; $[][] [] \U/zeus/m/n/10.95 ½
  []
-
-
-LaTeX Warning: Citation 'bollobas:2001' on page 61 undefined on input line 4184
-.
 
 
 Overfull \hbox (2.52014pt too wide) in paragraph at lines 4178--4188
@@ -2960,7 +2618,7 @@ Overfull \hbox (71.92542pt too wide) has occurred while \output is active
  []
 
 [64]
-<figures/negligible_vertex_structure.png, id=1344, 1068.99374pt x 963.6pt>
+<figures/negligible_vertex_structure.png, id=1288, 1068.99374pt x 963.6pt>
 File: figures/negligible_vertex_structure.png Graphic file (type png)
 
 <use figures/negligible_vertex_structure.png>
@@ -2987,7 +2645,7 @@ Overfull \hbox (71.92542pt too wide) has occurred while \output is active
  []
 
 [66])
-Package cleveref Info: loaded `english' language definitions on input line 492.
+Package cleveref Info: loaded `english' language definitions on input line 497.
 
  [67]
 \openout2 = `Chapters/VR16.aux'.
@@ -3013,7 +2671,7 @@ Overfull \hbox (13.46867pt too wide) in paragraph at lines 76--81
 
 Package cleveref Info: loaded `english' language definitions on input line 120.
 
-[70] <figures/dilated_emp_graphon_conv.png, id=1414, 1923.185pt x 1069.9975pt>
+[70] <figures/dilated_emp_graphon_conv.png, id=1358, 1923.185pt x 1069.9975pt>
 File: figures/dilated_emp_graphon_conv.png Graphic file (type png)
 
 <use figures/dilated_emp_graphon_conv.png>
@@ -3021,7 +2679,7 @@ Package pdftex.def Info: figures/dilated_emp_graphon_conv.png used on input lin
 e 153.
 (pdftex.def)             Requested size: 332.64185pt x 185.06458pt.
 
-<figures/triple_fig.png, id=1418, 2913.88625pt x 1033.8625pt>
+<figures/triple_fig.png, id=1362, 2913.88625pt x 1033.8625pt>
 File: figures/triple_fig.png Graphic file (type png)
 
 <use figures/triple_fig.png>
@@ -3138,21 +2796,6 @@ Overfull \hbox (13.92216pt too wide) in paragraph at lines 926--926
 Package cleveref Info: loaded `english' language definitions on input line 932.
 
 [85]
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 941.
-
-
 Overfull \hbox (12.7997pt too wide) in paragraph at lines 949--949
 [] 
  []
@@ -3262,7 +2905,7 @@ Package cleveref Info: loaded `english' language definitions on input line 1380
 Package cleveref Info: loaded `english' language definitions on input line 1446
 .
  [94])
-Package cleveref Info: loaded `english' language definitions on input line 493.
+Package cleveref Info: loaded `english' language definitions on input line 498.
 
  [95]
 \openout2 = `Chapters/BCCV17.aux'.
@@ -3321,7 +2964,7 @@ Overfull \hbox (11.43277pt too wide) in paragraph at lines 480--496
 -sult to gen-eral in-te-grable graphexes,
  []
 
-<figures/stretched_graphon_out.png, id=1880, 3796.07684pt x 4602.4579pt>
+<figures/stretched_graphon_out.png, id=1827, 3796.07684pt x 4602.4579pt>
 File: figures/stretched_graphon_out.png Graphic file (type png)
 
 <use figures/stretched_graphon_out.png>
@@ -3463,20 +3106,6 @@ Overfull \hbox (26.86186pt too wide) in paragraph at lines 980--982
  x\U/zeus/m/n/10.95 © \T1/pplj/m/n/10.95 d\U/zeur/m/n/10.95 x$\T1/pplj/m/n/10.9
 5 .[] 
  []
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 1013.
 
 
 Overfull \hbox (41.3282pt too wide) in paragraph at lines 1020--1023
@@ -3730,7 +3359,7 @@ pro-cess with dis-tri-bu-tion de-fined by, for any bounded
 Package cleveref Info: loaded `english' language definitions on input line 1813
 .
 [130])
-Package cleveref Info: loaded `english' language definitions on input line 494.
+Package cleveref Info: loaded `english' language definitions on input line 499.
 
  [131] [132
 
@@ -3740,31 +3369,43 @@ Package cleveref Info: loaded `english' language definitions on input line 494.
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (./FrontBackmatter/Bibliography.tex)
-Overfull \hbox (7.01434pt too wide) in paragraph at lines 509--509
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 12.
+
+(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 12.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (7.01434pt too wide) in paragraph at lines 514--514
 []\T1/pplj/m/n/10.95 David J. Al-dous. ^^P  Rep-re-sen-ta-tions for par-tially 
 ex-change-
  []
 
 
-Overfull \hbox (0.59334pt too wide) in paragraph at lines 509--509
+Overfull \hbox (0.59334pt too wide) in paragraph at lines 514--514
 \T1/pplj/m/n/10.95 able ar-rays of ran-dom vari-ables^^Q. In: \T1/pplj/m/it/10.
 95 J. Mul-ti-vari-ate Anal.
  []
 
 
-Overfull \hbox (9.48035pt too wide) in paragraph at lines 509--509
+Overfull \hbox (9.48035pt too wide) in paragraph at lines 514--514
 \T1/pplj/m/n/10.95 the statis-tics of large graphs and hy-per-graphs^^Q. In: \T
 1/pplj/m/it/10.95 Probab.
  []
 
 
-Overfull \hbox (2.1029pt too wide) in paragraph at lines 509--509
+Overfull \hbox (2.1029pt too wide) in paragraph at lines 514--514
 []\T1/pplj/m/n/10.95 N. Berger, C. Borgs, J. T. Chayes, and A. Saberi. ^^P  Asy
 mp-
  []
 
 
-Overfull \hbox (3.27428pt too wide) in paragraph at lines 509--509
+Overfull \hbox (3.27428pt too wide) in paragraph at lines 514--514
 \T1/pplj/m/n/10.95 sis-tent non-para-met-ric es-ti-ma-tion for heavy-tailed spa
 rse
  []
@@ -3774,137 +3415,140 @@ rse
 
 
 ]
-Overfull \hbox (3.48186pt too wide) in paragraph at lines 509--509
+Overfull \hbox (3.48186pt too wide) in paragraph at lines 514--514
 []\T1/pplj/m/n/10.95 C. Borgs, J. Chayes, L. Lovászsz, V. T. Sós, and K. Veszte
 r-
  []
 
 
-Overfull \hbox (2.19693pt too wide) in paragraph at lines 509--509
+Overfull \hbox (2.19693pt too wide) in paragraph at lines 514--514
 \T1/pplj/m/n/10.95 M. Loebl, J. Ma-tousek, R. Thomas, and P. Valtr. Springer,
  []
 
 
-Overfull \hbox (4.20912pt too wide) in paragraph at lines 509--509
+Overfull \hbox (4.20912pt too wide) in paragraph at lines 514--514
 []\T1/pplj/m/n/10.95 C. Borgs, J. T. Chayes, L. Lo-vasz, V. T. Sós, and K. Vesz
 ter-
  []
 
 
-Overfull \hbox (4.55952pt too wide) in paragraph at lines 509--509
+Overfull \hbox (4.55952pt too wide) in paragraph at lines 514--514
 []\T1/pplj/m/n/10.95 C. Borgs, J. T. Chayes, L. Lovász, V. T. Sós, and K. Veszt
 er-
  []
 
 
-Overfull \hbox (4.55952pt too wide) in paragraph at lines 509--509
+Overfull \hbox (4.55952pt too wide) in paragraph at lines 514--514
 []\T1/pplj/m/n/10.95 C. Borgs, J. T. Chayes, L. Lovász, V. T. Sós, and K. Veszt
 er-
  []
 
 
-Overfull \hbox (0.60527pt too wide) in paragraph at lines 509--509
+Overfull \hbox (0.60527pt too wide) in paragraph at lines 514--514
 \T1/pplj/m/n/10.95 gombi. ^^P  Con-ver-gent se-quences of dense graphs. II. Mul
 -
  []
 
 
-Overfull \hbox (1.2514pt too wide) in paragraph at lines 509--509
+Overfull \hbox (0.88393pt too wide) in paragraph at lines 514--514
+[]\T1/pplj/m/n/10.95 B. Bol-lobás and O. Ri-or-dan. ^^P  Met-rics for sparse gr
+aphs^^Q.
+ []
+
+
+Overfull \hbox (4.78513pt too wide) in paragraph at lines 514--514
+[]\T1/pplj/m/n/10.95 B. Bol-lobás. \T1/pplj/m/it/10.95 Ran-dom Graphs\T1/pplj/m
+/n/10.95 . Cam-bridge Uni-ver-sity Press,
+ []
+
+
+Overfull \hbox (1.2514pt too wide) in paragraph at lines 514--514
 []\T1/pplj/m/n/10.95 D. Cai, N. Ack-er-man, and C. Freer. ^^P  Pri-ors on ex-ch
 ange-
  []
 
 
-Overfull \hbox (9.08131pt too wide) in paragraph at lines 509--509
+Overfull \hbox (9.08131pt too wide) in paragraph at lines 514--514
 \T1/pplj/m/n/10.95 able di-rected graphs^^Q. In: \T1/pplj/m/it/10.95 ArXiv e-pr
 ints \T1/pplj/m/n/10.95 (Oct. 2015). arXiv:
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 12.
 [134]
-Overfull \hbox (4.94064pt too wide) in paragraph at lines 509--509
+Overfull \hbox (9.50946pt too wide) in paragraph at lines 514--514
+[]\T1/pplj/m/n/10.95 Bruno de Finetti. ^^P  Fun-zione carat-ter-is-tica di un f
+enomeno
+ []
+
+
+Overfull \hbox (4.94064pt too wide) in paragraph at lines 514--514
 \T1/pplj/m/n/10.95 bil-i-ties^^Q. En-glish. In: \T1/pplj/m/it/10.95 Op-er-a-tio
 ns Re-search Let-ters \T1/pplj/m/n/10.95 6.1 (1987),
  []
 
 
-Overfull \hbox (2.22183pt too wide) in paragraph at lines 509--509
+Overfull \hbox (3.85881pt too wide) in paragraph at lines 514--514
+\T1/pplj/m/n/10.95 Carte-sian Prod-ucts^^Q. In: \T1/pplj/m/it/10.95 Trans. Am. 
+Math. Soc. \T1/pplj/m/n/10.95 80.2 (1955),
+ []
+
+
+Overfull \hbox (2.22183pt too wide) in paragraph at lines 514--514
 []\T1/pplj/m/n/10.95 F. den Hol-lan-der. \T1/pplj/m/it/10.95 Prob-a-bil-ity The
 -ory: The Cou-pling Method\T1/pplj/m/n/10.95 .
  []
 
-
-Overfull \hbox (6.80614pt too wide) in paragraph at lines 509--509
+Package cleveref Info: loaded `english' language definitions on input line 12.
+[135]
+Overfull \hbox (6.80614pt too wide) in paragraph at lines 514--514
 []\T1/pplj/m/n/10.95 O. Kallen-berg. \T1/pplj/m/it/10.95 Prob-a-bilis-tic Sym-m
 e-tries and In-vari-ance Prin-
  []
 
 
-Overfull \hbox (8.69843pt too wide) in paragraph at lines 509--509
+Overfull \hbox (8.69843pt too wide) in paragraph at lines 514--514
 \T1/pplj/m/it/10.95 Adv. Neu-ral In-form. Pro-cess. Syst. (NIPS) 25\T1/pplj/m/n
 /10.95 . 2012, pp. 1007^^U
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 12.
-[135]
-Overfull \hbox (6.38866pt too wide) in paragraph at lines 509--509
+
+Overfull \hbox (6.38866pt too wide) in paragraph at lines 514--514
 []\T1/pplj/m/n/10.95 László Lovász and Balázs Szegedy. ^^P  Sze-merédi's Lemma
  []
 
 
-Overfull \hbox (10.41728pt too wide) in paragraph at lines 509--509
+Overfull \hbox (10.41728pt too wide) in paragraph at lines 514--514
 \T1/pplj/m/n/10.95 for the An-a-lyst^^Q. In: \T1/pplj/m/it/10.95 Geom. Func. An
 al. \T1/pplj/m/n/10.95 17.1 (2007), pp. 252^^U
  []
 
-
-Overfull \hbox (10.15045pt too wide) in paragraph at lines 509--509
+Package cleveref Info: loaded `english' language definitions on input line 12.
+[136]
+Overfull \hbox (10.15045pt too wide) in paragraph at lines 514--514
 []\T1/pplj/m/n/10.95 P. Or-banz. \T1/pplj/m/it/10.95 Sub-sam-pling and in-vari-
 ance in net-works\T1/pplj/m/n/10.95 . Preprint.
  []
 
 
-Overfull \hbox (11.02437pt too wide) in paragraph at lines 509--509
+Overfull \hbox (11.02437pt too wide) in paragraph at lines 514--514
 \T1/pplj/m/n/10.95 Aris-ing from Ex-change-able Ran-dom Mea-sures^^Q. In: \T1/p
 plj/m/it/10.95 ArXiv
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 509.
+Package cleveref Info: loaded `english' language definitions on input line 514.
 
-[136]
-\openout2 = `FrontBackmatter/Declaration.aux'.
-
- (./FrontBackmatter/Declaration.tex) [137
-
-
-
-
-
-
-] [138
-
-
-
-]
-\openout2 = `FrontBackmatter/Colophon.aux'.
-
-
-(./FrontBackmatter/Colophon.tex) [139
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 515.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 515.
- (./VictorVeitchPhDThesis.aux
-(./FrontBackmatter/Titlepage.aux)
+[137]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 520.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 520.
+ (./VictorVeitchPhDThesis.aux (./FrontBackmatter/Titlepage.aux)
 Package cleveref Info: loaded `english' language definitions on input line 27.
 Package cleveref Info: loaded `english' language definitions on input line 37.
- (./FrontBackmatter/Abstract.aux)
-(./FrontBackmatter/Publications.aux) (./FrontBackmatter/Acknowledgments.aux)
-(./FrontBackmatter/Contents.aux) (./Chapters/intro.aux) (./Chapters/VR15.aux)
-(./Chapters/VR16.aux) (./Chapters/BCCV17.aux)
-(./FrontBackmatter/Bibliography.aux) (./FrontBackmatter/Declaration.aux)
-(./FrontBackmatter/Colophon.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 515.
+
+(./FrontBackmatter/Abstract.aux) (./FrontBackmatter/Attribution.aux)
+(./FrontBackmatter/Acknowledgments.aux) (./FrontBackmatter/Contents.aux)
+(./Chapters/intro.aux) (./Chapters/VR15.aux) (./Chapters/VR16.aux)
+(./Chapters/BCCV17.aux) (./FrontBackmatter/Bibliography.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 520.
 
 
  *File List*
@@ -4082,7 +3726,6 @@ epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
   mt-ppl.cfg    2005/11/16 v1.6 microtype config. file: Palatino (RS)
 FrontBackmatter/Titlepage.tex
 FrontBackmatter/Abstract.tex
-   t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
    uzeur.fd    2005/01/11 v4.0 (WaS)
   mt-eur.cfg    2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
    uzeus.fd    2005/01/11 v4.0 (WaS)
@@ -4092,11 +3735,11 @@ FrontBackmatter/Abstract.tex
   mt-msa.cfg    2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
   mt-msb.cfg    2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
    ursfs.fd    1998/03/24 rsfs font definition file (jk)
-FrontBackmatter/Publications.tex
+FrontBackmatter/Attribution.tex
 FrontBackmatter/Acknowledgments.tex
 FrontBackmatter/Contents.tex
- ufplmbb.fd    2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 Chapters/intro.tex
+ ufplmbb.fd    2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 figures/anim.pdf
 Chapters/VR15.tex
 figures/graph_model_figure_v2_austere_v2.png
@@ -4113,24 +3756,14 @@ figures/triple_fig.png
 Chapters/BCCV17.tex
 figures/stretched_graphon_out.png
 FrontBackmatter/Bibliography.tex
-FrontBackmatter/Declaration.tex
-FrontBackmatter/Colophon.tex
+   t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 515.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 520.
 Package rerunfilecheck Info: File `VictorVeitchPhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 53D92C217AC7C4A9781E2EA4EA385FE5;4846.
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 47904A290A1E079102CAD1FF4E62C1A2;4576.
 
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                VictorVeitchPhDThesis1-blx
-(biblatex)                VictorVeitchPhDThesis
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'VictorVeitchPhDThesis.run.xml'.
 \openout1 = `VictorVeitchPhDThesis.run.xml'.
@@ -4138,45 +3771,44 @@ Package logreq Info: Writing requests to 'VictorVeitchPhDThesis.run.xml'.
  )
 (\end occurred when \iftrue on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 28813 strings out of 494910
- 502798 string characters out of 6179836
- 939726 words of memory out of 5000000
- 30388 multiletter control sequences out of 15000+600000
- 135473 words of font info for 247 fonts, out of 8000000 for 9000
+ 28695 strings out of 494910
+ 500873 string characters out of 6179836
+ 939465 words of memory out of 5000000
+ 30320 multiletter control sequences out of 15000+600000
+ 131292 words of font info for 240 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 69i,23n,95p,2313b,4070s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/
-enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvi
-ps/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ 69i,23n,103p,2293b,2962s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texm
+f-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/c
+m-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/euler/euex10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/euler/eufm7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/euler/eurb10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/euler/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/euler/eusm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/euler/eusm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplbj
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/rsfs/rsfs10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/palatino/uplri8a.pfb>
-Output written on VictorVeitchPhDThesis.pdf (155 pages, 1963161 bytes).
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/euler/eurb10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/euler/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/euler/eusm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/euler/eusm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fp
+l/fplbj8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/rsfs/rsfs10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfc
+c1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/palatino/uplri8a.pfb>
+Output written on VictorVeitchPhDThesis.pdf (143 pages, 1930987 bytes).
 PDF statistics:
- 2581 PDF objects out of 2984 (max. 8388607)
- 2353 compressed objects within 24 object streams
- 1027 named destinations out of 1200 (max. 500000)
- 30758 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 2504 PDF objects out of 2984 (max. 8388607)
+ 2290 compressed objects within 23 object streams
+ 1007 named destinations out of 1200 (max. 500000)
+ 30198 words of extra memory for PDF output out of 35830 (max. 10000000)
 

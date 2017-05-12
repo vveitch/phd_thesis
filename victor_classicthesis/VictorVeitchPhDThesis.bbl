@@ -141,6 +141,38 @@
   \field{year}{1981}
 \endentry
 
+\entry{Aldous:1983}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Aldous}{A.}%
+     {D.~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Hennequin}{H.}%
+     {P.~L.}{P.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \keyw{exchangeability}
+  \strng{namehash}{ADJ1}
+  \strng{fullhash}{ADJ1}
+  \field{labelalpha}{Ald85}
+  \field{sortinit}{A}
+  \field{booktitle}{\'{E}cole d'\'{E}t\'{e} de Probabilit\'{e}s de Saint-Flour
+  XIII - 1983}
+  \field{number}{1117}
+  \field{pages}{1\bibrangedash 198}
+  \field{series}{Lecture Notes in Mathematics}
+  \field{title}{Exchangeability and Related Topics}
+  \field{year}{1985}
+\endentry
+
 \entry{Austin:2008}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -325,6 +357,38 @@
   \field{eprintclass}{math.PR}
   \field{month}{01}
   \field{year}{2016}
+\endentry
+
+\entry{Borgs:Chayes:Cohn:Veitch:2017}{misc}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Borgs}{B.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chayes}{C.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cohn}{C.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Veitch}{V.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BCCJCHVV1}
+  \strng{fullhash}{BCCJCHVV1}
+  \field{labelalpha}{BCCV17}
+  \field{sortinit}{B}
+  \field{howpublished}{Preprint}
+  \field{title}{Sampling perspectives on sparse exchangeable graphs}
+  \field{year}{2017}
 \endentry
 
 \entry{Borgs:Chayes:Cohn:Zhao:2014:sgc1}{article}{}
@@ -670,6 +734,89 @@
   \field{year}{2015}
 \endentry
 
+\entry{Bollobas:Janson:Riordan:2007}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bollob\'{a}s}{B.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Janson}{J.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Riordan}{R.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{graphs}
+  \strng{namehash}{BBJSRO1}
+  \strng{fullhash}{BBJSRO1}
+  \field{labelalpha}{BJR07}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.1002/rsa.20168
+  \endverb
+  \field{issn}{1042-9832}
+  \field{number}{1}
+  \field{pages}{3\bibrangedash 122}
+  \field{title}{The phase transition in inhomogeneous random graphs}
+  \verb{url}
+  \verb http://dx.doi.org/10.1002/rsa.20168
+  \endverb
+  \field{volume}{31}
+  \field{journaltitle}{Random Struct. Alg.}
+  \field{year}{2007}
+\endentry
+
+\entry{Bollobas:Riordan:2007}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bollob\'{a}s}{B.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Riordan}{R.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{graphs}
+  \strng{namehash}{BBRO1}
+  \strng{fullhash}{BBRO1}
+  \field{labelalpha}{BR07}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Recently, Bollob\'as, Janson and Riordan introduced a very general family of
+  random graph models, producing inhomogeneous random graphs with $\Theta(n)$
+  edges. Roughly speaking, there is one model for each {\em kernel}, i.e., each
+  symmetric measurable function from $[0,1]^2$ to the non-negative reals,
+  although the details are much more complicated. A different connection
+  between kernels and random graphs arises in the recent work of Borgs, Chayes,
+  Lov\'asz, S\'os, Szegedy and Vesztergombi. They introduced several natural
+  metrics on dense graphs (graphs with $n$ vertices and $\Theta(n^2)$ edges),
+  showed that these metrics are equivalent, and gave a description of the
+  completion of the space of all graphs with respect to any of these metrics in
+  terms of {\em graphons}, which are essentially bounded kernels. One of the
+  most appealing aspects of this work is the message that sequences of
+  inhomogeneous quasi-random graphs are in a sense completely general: any
+  sequence of dense graphs contains such a subsequence.%
+  }
+  \verb{eprint}
+  \verb 0708.1919v3
+  \endverb
+  \field{title}{Metrics for sparse graphs}
+  \verb{url}
+  \verb http://arxiv.org/abs/0708.1919v3
+  \endverb
+  \field{month}{08}
+  \field{year}{2007}
+\endentry
+
 \entry{Benjamini:Schramm:2001:1}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -696,6 +843,25 @@
   \endverb
   \field{volume}{6}
   \field{journaltitle}{Electron. J. Probab.}
+  \field{year}{2001}
+\endentry
+
+\entry{bollobas:2001}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bollob\'{a}s}{B.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{BB1}
+  \strng{fullhash}{BB1}
+  \field{labelalpha}{Bol01}
+  \field{sortinit}{B}
+  \field{title}{Random Graphs}
   \field{year}{2001}
 \endentry
 
@@ -913,6 +1079,25 @@
   \field{year}{2003}
 \endentry
 
+\entry{Durrett:2006}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Durrett}{D.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{DR1}
+  \strng{fullhash}{DR1}
+  \field{labelalpha}{Dur06}
+  \field{sortinit}{D}
+  \field{title}{Random Graph Dynamics}
+  \field{year}{2006}
+\endentry
+
 \entry{Durrett:2010}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -933,29 +1118,49 @@
   \field{year}{2010}
 \endentry
 
-\entry{Gikhman:Skorokhod:1969}{book}{}
-  \name{author}{2}{}{%
+\entry{DeFinetti:1930}{article}{}
+  \name{author}{1}{}{%
     {{}%
-     {Gikhman}{G.}%
-     {I.~I.}{I.~I.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Skorokhod}{S.}%
-     {A.~V.}{A.~V.}%
-     {}{}%
+     {Finetti}{F.}%
+     {Bruno}{B.}%
+     {de}{d.}%
      {}{}}%
   }
-  \list{publisher}{1}{%
-    {Dover}%
+  \keyw{exchangeability}
+  \strng{namehash}{FBd1}
+  \strng{fullhash}{FBd1}
+  \field{labelalpha}{Fin30}
+  \field{sortinit}{F}
+  \field{number}{4}
+  \field{pages}{86\bibrangedash 133}
+  \field{title}{Funzione caratteristica di un fenomeno aleatorio}
+  \field{volume}{VI}
+  \field{journaltitle}{Atti Reale Accademia Nazionale dei Lincei}
+  \field{year}{1930}
+\endentry
+
+\entry{DeFinetti:1937}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Finetti}{F.}%
+     {Bruno}{B.}%
+     {de}{d.}%
+     {}{}}%
   }
-  \keyw{Stochastic-Processes}
-  \strng{namehash}{GIISAV1}
-  \strng{fullhash}{GIISAV1}
-  \field{labelalpha}{GS69}
-  \field{sortinit}{G}
-  \field{title}{Introduction to the Theory of Random Processes}
-  \field{year}{1969}
+  \strng{namehash}{FBd1}
+  \strng{fullhash}{FBd1}
+  \field{labelalpha}{Fin37}
+  \field{sortinit}{F}
+  \field{issn}{0365-320X}
+  \field{number}{1}
+  \field{pages}{1\bibrangedash 68}
+  \field{title}{La pr{\'e}vision: ses lois logiques, ses sources subjectives}
+  \verb{url}
+  \verb http://www.numdam.org/item?id=AIHP_1937__7_1_1_0
+  \endverb
+  \field{volume}{7}
+  \field{journaltitle}{Ann. Inst. H. Poincar{\'e}}
+  \field{year}{1937}
 \endentry
 
 \entry{Glynn_Poisson_Tail_bounds}{article}{}
@@ -1023,36 +1228,30 @@
   \field{year}{2002}
 \endentry
 
-\entry{Herlau:Schmidt:Morup:2015}{article}{}
-  \name{author}{3}{}{%
+\entry{Hewitt:Savage:1955}{article}{}
+  \name{author}{2}{}{%
     {{}%
-     {{Herlau}}{H.}%
-     {T.}{T.}%
+     {Hewitt}{H.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
-     {{Schmidt}}{S.}%
-     {M.N.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Morup}}{M.}%
-     {M.}{M.}%
+     {Savage}{S.}%
+     {L.~J.}{L.~J.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{HTSMMM1}
-  \strng{fullhash}{HTSMMM1}
-  \field{labelalpha}{HSM15}
+  \keyw{exchangeability; ergodic decomposition}
+  \strng{namehash}{HESLJ1}
+  \strng{fullhash}{HESLJ1}
+  \field{labelalpha}{HS55}
   \field{sortinit}{H}
-  \verb{eprint}
-  \verb 1507.02925
-  \endverb
-  \field{title}{Completely random measures for modelling block-structured
-  networks}
-  \field{journaltitle}{ArXiv e-prints}
-  \field{eprinttype}{arXiv}
-  \field{year}{2015}
+  \field{number}{2}
+  \field{pages}{470\bibrangedash 501}
+  \field{title}{Symmetric Measures on {C}artesian Products}
+  \field{volume}{80}
+  \field{journaltitle}{Trans. Am. Math. Soc.}
+  \field{year}{1955}
 \endentry
 
 \entry{denHollander:2012}{book}{}
@@ -1219,6 +1418,26 @@
   \field{urlday}{28}
   \field{urlmonth}{10}
   \field{urlyear}{2015}
+\endentry
+
+\entry{Kingman:1993}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kingman}{K.}%
+     {J.~F.~C.}{J.~F.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford University Press}%
+  }
+  \keyw{point processes/random measures}
+  \strng{namehash}{KJFC1}
+  \strng{fullhash}{KJFC1}
+  \field{labelalpha}{Kin93}
+  \field{sortinit}{K}
+  \field{title}{Poisson Processes}
+  \field{year}{1993}
 \endentry
 
 \entry{Lloyd:Orbanz:Ghahramani:Roy:2012}{inproceedings}{}
@@ -1388,6 +1607,25 @@
   \field{year}{2001}
 \endentry
 
+\entry{Newman:2009}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Newman}{N.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford University Press}%
+  }
+  \strng{namehash}{NM1}
+  \strng{fullhash}{NM1}
+  \field{labelalpha}{New09}
+  \field{sortinit}{N}
+  \field{title}{Networks. An Introduction}
+  \field{year}{2009}
+\endentry
+
 \entry{Orbanz:Roy:2015}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1529,30 +1767,6 @@
   \field{eprintclass}{math.ST}
   \field{month}{09}
   \field{year}{2013}
-\endentry
-
-\entry{Janson:2016}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{Janson}}{J.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Mathematics - Combinatorics, 05C99, 05C80}
-  \strng{namehash}{JS1}
-  \strng{fullhash}{JS1}
-  \field{labelalpha}{{Jan}16}
-  \field{sortinit}{{J}}
-  \verb{eprint}
-  \verb 1608.01833
-  \endverb
-  \field{title}{{Graphons and cut metric on sigma-finite measure spaces}}
-  \field{journaltitle}{ArXiv e-prints}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{math.CO}
-  \field{month}{08}
-  \field{year}{2016}
 \endentry
 
 \entry{Janson:2017}{article}{}
