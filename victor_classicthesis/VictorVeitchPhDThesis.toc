@@ -2,22 +2,120 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\vspace {-\cftbeforepartskip }
+\vspace {-\cftbeforechapskip }
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {i}\spacedlowsmallcaps {Overview}}{1}{part.1}
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {The Showcase}}{3}{part.2}
+\contentsline {subsection}{\numberline {1.0.1}The Class of Random Graphs Arising from Exchangeable Random Measures}{3}{subsection.1.0.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{5}{chapter.1}
+\contentsline {subsection}{\numberline {1.0.2}Sampling and Estimation for (Sparse) Exchangeable Graphs}{5}{subsection.1.0.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.0.1}The Class of Random Graphs Arising from Exchangeable Random Measures}{7}{subsection.1.0.1}
+\contentsline {subsection}{\numberline {1.0.3}Sampling Perspectives on (Sparse) Exchangeable Graphs}{6}{subsection.1.0.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.0.2}Sampling and Estimation for (Sparse) Exchangeable Graphs}{8}{subsection.1.0.2}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {The Class of Random Graphs Arising from Exchangeable Random Measures}}{9}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.0.3}Sampling Perspectives on (Sparse) Exchangeable Graphs}{8}{subsection.1.0.3}
+\contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Models from invariance principles}{10}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Sparse graph models from exchangeability}{11}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Sampling distribution properties}{12}{subsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.4}Overview}{14}{subsection.2.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Background}{15}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Desiderata for random graph models}{15}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Models from symmetries}{17}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Models for graphs from symmetries}{19}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.4}Random graphs as random measures}{21}{subsection.2.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Examples}{24}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Graphon models}{24}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Slow Decay}{25}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Fast Decay}{26}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Caron and Fox}{26}{subsection.2.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Representation Theorem}{27}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Key Properties}{34}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.1}Expected Number of Edges and Vertices}{34}{subsection.2.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.2}Degree Distribution in the Asymptotic Limit}{35}{subsection.2.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.3}Connectivity for Product Form KEGs}{36}{subsection.2.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.A}Expected Number of Edges and Vertices}{36}{section.a.2.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.B}Degree Distribution in the Asymptotic Limit}{41}{section.a.2.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.C}Connectivity for Product Form KEGs}{58}{section.a.2.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Sampling and estimation for (sparse) exchangeable graphs}}{69}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Introduction}{69}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Preliminaries}{76}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Sampling}{77}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Estimation with known sizes}{78}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Convergence in Distribution of Random Embeddings}{79}{subsection.3.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}Asymptotic Equivalence of Sampling Schemes}{82}{subsection.3.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Estimating $\mathcal {W}$}{87}{subsection.3.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Estimation for unknown sizes}{91}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Sampling Perspectives on Sparse Exchangeable Graphs}}{97}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Introduction}{97}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Statistical Network Modeling}{101}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Graph Limits}{102}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2.1}Randomly Labeled Graphs}{102}{subsubsection.4.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2.2}Metric Convergence}{104}{subsubsection.4.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2.3}Consistent Estimation}{105}{subsubsection.4.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Organization}{108}{subsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Preliminaries}{108}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Graph Limits}{108}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Sampling}{110}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Coupling}{111}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}Distributional Convergence of Point Process}{112}{subsection.4.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Sampling Limits of Graph Sequences}{112}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Kallenberg Exchangeable Graphs are Sampling Convergent}{120}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Graphon Metrics and Sampling Distributions}{123}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Metrization}{128}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Sampling Defines Exchangeable Random Graphs}{129}{section.4.7}
 \defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{11}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{133}{dummy.6}
