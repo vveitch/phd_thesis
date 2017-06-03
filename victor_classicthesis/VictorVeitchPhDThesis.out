@@ -6,7 +6,7 @@
 \BOOKMARK [1][-]{subsection.1.0.1}{1.0.1 The Class of Random Graphs Arising from Exchangeable Random Measures}{chapter.1}% 6
 \BOOKMARK [2][-]{subsection.1.0.2}{1.0.2 Sampling and Estimation for \(Sparse\) Exchangeable Graphs}{subsection.1.0.1}% 7
 \BOOKMARK [2][-]{subsection.1.0.3}{1.0.3 Sampling Perspectives on \(Sparse\) Exchangeable Graphs}{subsection.1.0.1}% 8
-\BOOKMARK [0][]{chapter.2}{2 The Class of Random Graphs Arising from Exchangeable Random Measures}{}% 9
+\BOOKMARK [0][]{chapter.2}{2 Random Graphs from Exchangeability}{}% 9
 \BOOKMARK [1][-]{section.2.1}{2.1 Introduction}{chapter.2}% 10
 \BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Models from invariance principles}{section.2.1}% 11
 \BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Sparse graph models from exchangeability}{section.2.1}% 12
@@ -41,17 +41,17 @@
 \BOOKMARK [1][-]{section.3.5}{3.5 Estimation for unknown sizes}{chapter.3}% 41
 \BOOKMARK [0][]{chapter.4}{4 Sampling Perspectives on Sparse Exchangeable Graphs}{}% 42
 \BOOKMARK [1][-]{section.4.1}{4.1 Introduction}{chapter.4}% 43
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Statistical Network Modeling}{section.4.1}% 44
-\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Graph Limits}{section.4.1}% 45
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Statistical network modeling}{section.4.1}% 44
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Graph limits}{section.4.1}% 45
 \BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Organization}{section.4.1}% 46
 \BOOKMARK [1][-]{section.4.2}{4.2 Preliminaries}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Graph Limits}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Graph limits}{section.4.2}% 48
 \BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Sampling}{section.4.2}% 49
 \BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Coupling}{section.4.2}% 50
-\BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 Distributional Convergence of Point Process}{section.4.2}% 51
-\BOOKMARK [1][-]{section.4.3}{4.3 Sampling Limits of Graph Sequences}{chapter.4}% 52
-\BOOKMARK [1][-]{section.4.4}{4.4 Kallenberg Exchangeable Graphs are Sampling Convergent}{chapter.4}% 53
-\BOOKMARK [1][-]{section.4.5}{4.5 Graphon Metrics and Sampling Distributions}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 Distributional convergence of point processes}{section.4.2}% 51
+\BOOKMARK [1][-]{section.4.3}{4.3 Sampling limits of graph sequences}{chapter.4}% 52
+\BOOKMARK [1][-]{section.4.4}{4.4 Graphex processes are sampling convergent}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.5}{4.5 Graphon metrics and sampling distributions}{chapter.4}% 54
 \BOOKMARK [1][-]{section.4.6}{4.6 Metrization}{chapter.4}% 55
-\BOOKMARK [1][-]{section.4.7}{4.7 Sampling Defines Exchangeable Random Graphs}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.7}{4.7 Sampling defines exchangeable random graphs}{chapter.4}% 56
 \BOOKMARK [0][]{dummy.2}{Bibliography}{}% 57

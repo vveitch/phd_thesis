@@ -1254,6 +1254,38 @@
   \field{year}{1955}
 \endentry
 
+\entry{Herlau:Schmidt:Morup:2015}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {{Herlau}}{H.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schmidt}}{S.}%
+     {M.N.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Morup}}{M.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HTSMMM1}
+  \strng{fullhash}{HTSMMM1}
+  \field{labelalpha}{HSM15}
+  \field{sortinit}{H}
+  \verb{eprint}
+  \verb 1507.02925
+  \endverb
+  \field{title}{Completely random measures for modelling block-structured
+  networks}
+  \field{journaltitle}{ArXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{year}{2015}
+\endentry
+
 \entry{denHollander:2012}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -1288,6 +1320,30 @@
   }
   \field{type}{techreport}
   \field{year}{1979}
+\endentry
+
+\entry{KerrLi:2016}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kerr}{K.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Hanfeng}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{KDLH1}
+  \strng{fullhash}{KDLH1}
+  \field{labelalpha}{KL16}
+  \field{sortinit}{K}
+  \field{title}{Ergodic Theory: Independence and Dichotomies}
+  \field{year}{2016}
 \endentry
 
 \entry{Kallenberg:2001}{book}{}
@@ -1767,6 +1823,30 @@
   \field{eprintclass}{math.ST}
   \field{month}{09}
   \field{year}{2013}
+\endentry
+
+\entry{Janson:2016}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Janson}}{J.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Mathematics - Combinatorics, 05C99, 05C80}
+  \strng{namehash}{JS1}
+  \strng{fullhash}{JS1}
+  \field{labelalpha}{{Jan}16}
+  \field{sortinit}{{J}}
+  \verb{eprint}
+  \verb 1608.01833
+  \endverb
+  \field{title}{{Graphons and cut metric on sigma-finite measure spaces}}
+  \field{journaltitle}{ArXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{math.CO}
+  \field{month}{08}
+  \field{year}{2016}
 \endentry
 
 \entry{Janson:2017}{article}{}

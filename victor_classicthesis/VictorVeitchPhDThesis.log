@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.11)  12 MAY 2017 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.11)  3 JUN 2017 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -80,14 +80,14 @@ Package typearea, 2015/10/03 v3.19a KOMA-Script package (type area)
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 14.22636pt
-(typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 408.2971pt
-(typearea)              DIV departure   = -3%
-(typearea)              \evensidemargin = 44.38632pt
-(typearea)              \oddsidemargin  = 0.28453pt
-(typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 514.20023pt
-(typearea)              \topmargin      = 12.2347pt
+(typearea)             \paperwidth      = 614.295pt
+(typearea)              \textwidth      = 420.04808pt
+(typearea)              DIV departure   = -7%
+(typearea)              \evensidemargin = 47.74371pt
+(typearea)              \oddsidemargin  = 1.96323pt
+(typearea)             \paperheight     = 794.96999pt
+(typearea)              \textheight     = 473.4002pt
+(typearea)              \topmargin      = 7.227pt
 (typearea)              \headheight     = 17.0pt
 (typearea)              \headsep        = 20.40001pt
 (typearea)              \topskip        = 11.0pt
@@ -1243,13 +1243,13 @@ Package classicthesis Info: A4 paper, Palatino or other on input line 272.
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = areaset
 (typearea)             BCOR = 14.22636pt
-(typearea)             \paperwidth      = 597.50793pt
+(typearea)             \paperwidth      = 614.295pt
 (typearea)              \textwidth      = 336.0pt
-(typearea)              \evensidemargin = 92.58438pt
-(typearea)              \oddsidemargin  = 24.38356pt
-(typearea)             \paperheight     = 845.04694pt
+(typearea)              \evensidemargin = 103.77576pt
+(typearea)              \oddsidemargin  = 29.97925pt
+(typearea)             \paperheight     = 794.96999pt
 (typearea)              \textheight     = 666.04997pt
-(typearea)              \topmargin      = -40.58768pt
+(typearea)              \topmargin      = -57.28pt
 (typearea)              \headheight     = 15.95pt
 (typearea)              \headsep        = 20.40001pt
 (typearea)              \topskip        = 11.0pt
@@ -1710,7 +1710,11 @@ Package cleveref Info: loaded `english' language definitions on input line 465.
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2
+
+
+
+]
 \openout2 = `FrontBackmatter/Abstract.aux'.
 
  (./FrontBackmatter/Abstract.tex)
@@ -1757,22 +1761,32 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 478.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [2
+) [3
+
+] [4
+
 
 
 ]
 \openout2 = `FrontBackmatter/Attribution.aux'.
 
 
-(./FrontBackmatter/Attribution.tex) [3
+(./FrontBackmatter/Attribution.tex) [5
 
+
+
+] [6
 
 
 
 ]
 \openout2 = `FrontBackmatter/Acknowledgments.aux'.
 
- (./FrontBackmatter/Acknowledgments.tex) [4
+
+(./FrontBackmatter/Acknowledgments.tex) [7
+
+] [8
+
 
 
 ]
@@ -1781,7 +1795,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
  (./FrontBackmatter/Contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
 .
- (./VictorVeitchPhDThesis.toc
+(./VictorVeitchPhDThesis.toc
 Package cleveref Info: loaded `english' language definitions on input line 3.
 Package cleveref Info: loaded `english' language definitions on input line 7.
 Package microtype Info: Character `029' is missing
@@ -1795,12 +1809,6 @@ Overfull \hbox (1.50363pt too wide) in paragraph at lines 13--13
 
 Overfull \hbox (2.80666pt too wide) in paragraph at lines 15--15
  [][] []\T1/pplj/m/n/10.95 Sampling Per-spec-tives on (Sparse) Ex-change-able 
- []
-
-
-Overfull \hbox (17.76804pt too wide) in paragraph at lines 17--17
- [][] []\T1/pplj/m/sc/10.95/80ls the class of ran-dom graphs aris-ing from ex-c
-hange- 
  []
 
 
@@ -1824,8 +1832,7 @@ Overfull \hbox (24.57121pt too wide) in paragraph at lines 77--77
  [][] []\T1/pplj/m/n/10.95 Asymptotic Equiv-a-lence of Sam-pling Schemes []  
  []
 
-[5
-
+[9
 
 
 
@@ -1836,14 +1843,9 @@ le graphs []
  []
 
 
-Overfull \hbox (13.54456pt too wide) in paragraph at lines 107--107
- [][] []\T1/pplj/m/n/10.95 Distributional Con-ver-gence of Point Pro-cess []  
- []
-
-
-Overfull \hbox (2.93172pt too wide) in paragraph at lines 117--117
- [][] []\T1/pplj/m/n/10.95 Sampling De-fines Ex-change-able Ran-dom Graphs []  
-
+Overfull \hbox (20.46495pt too wide) in paragraph at lines 107--107
+ [][] []\T1/pplj/m/n/10.95 Distributional con-ver-gence of point pro-cesses [] 
+ 
  []
 
 )
@@ -1858,7 +1860,7 @@ Overfull \hbox (2.93172pt too wide) in paragraph at lines 117--117
 )
 Package cleveref Info: loaded `english' language definitions on input line 482.
 
- [6]
+ [10]
 \openout2 = `Chapters/intro.aux'.
 
  (./Chapters/intro.tex
@@ -1873,38 +1875,33 @@ chapter 1.
 
 
 ]
-LaTeX Font Info:    Try loading font information for U+fplmbb on input line 44.
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 46.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
-Package cleveref Info: loaded `english' language definitions on input line 92.
+Package cleveref Info: loaded `english' language definitions on input line 94.
  [2]
-<figures/anim.pdf, id=375, 705.0059pt x 227.13457pt>
+<figures/anim.pdf, id=391, 705.0059pt x 227.13457pt>
 File: figures/anim.pdf Graphic file (type pdf)
  <use figures/anim.pdf>
-Package pdftex.def Info: figures/anim.pdf used on input line 118.
+Package pdftex.def Info: figures/anim.pdf used on input line 120.
 (pdftex.def)             Requested size: 332.64185pt x 107.16914pt.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 148.
+(hyperref)                than one, level fixed on input line 150.
 
-Package cleveref Info: loaded `english' language definitions on input line 162.
+Package cleveref Info: loaded `english' language definitions on input line 163.
 
 [3]
-Package cleveref Info: loaded `english' language definitions on input line 162.
+Package cleveref Info: loaded `english' language definitions on input line 163.
 
  [4 <./figures/anim.pdf>]
-Overfull \hbox (4.23785pt too wide) in paragraph at lines 185--190
-[]\T1/pplj/m/n/10.95 We also note that Svante Jan-son has writ-ten a fol-lowup 
-pa-per [[][]Jan17[][]]
- []
+Package cleveref Info: loaded `english' language definitions on input line 192.
 
-Package cleveref Info: loaded `english' language definitions on input line 190.
-
-[5]
-Package cleveref Info: loaded `english' language definitions on input line 229.
+ [5]
+Package cleveref Info: loaded `english' language definitions on input line 231.
 
  [6])
 Package cleveref Info: loaded `english' language definitions on input line 496.
@@ -1933,11 +1930,6 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 
 Package cleveref Info: loaded `english' language definitions on input line 201.
 
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [10]
 Package cleveref Info: loaded `english' language definitions on input line 254.
 
@@ -1948,7 +1940,7 @@ of graphons
  []
 
 
-<figures/graph_model_figure_v2_austere_v2.png, id=473, 1681.482pt x 1697.542pt>
+<figures/graph_model_figure_v2_austere_v2.png, id=491, 1681.482pt x 1697.542pt>
 File: figures/graph_model_figure_v2_austere_v2.png Graphic file (type png)
 <use figures/graph_model_figure_v2_austere_v2.png>
 Package pdftex.def Info: figures/graph_model_figure_v2_austere_v2.png used on i
@@ -1956,12 +1948,7 @@ nput line 265.
 (pdftex.def)             Requested size: 168.0pt x 169.58282pt.
 Package cleveref Info: loaded `english' language definitions on input line 407.
 
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[12]
+ [12]
 Package cleveref Info: loaded `english' language definitions on input line 407.
 
  [13 <./figures/graph_model_figure_v2_austere_v2.png>]
@@ -1972,34 +1959,19 @@ Overfull \hbox (7.32584pt too wide) in paragraph at lines 415--424
 
 Package cleveref Info: loaded `english' language definitions on input line 1244
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [14]
 Package cleveref Info: loaded `english' language definitions on input line 1286
 .
  [15]
 Package cleveref Info: loaded `english' language definitions on input line 1346
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[16]
+ [16]
 Package cleveref Info: loaded `english' language definitions on input line 1460
 .
  [17]
 Package cleveref Info: loaded `english' language definitions on input line 1546
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[18]
+ [18]
 Package cleveref Info: loaded `english' language definitions on input line 1600
 .
  [19]
@@ -2010,18 +1982,13 @@ Overfull \hbox (14.79445pt too wide) in paragraph at lines 1629--1637
 
 Package cleveref Info: loaded `english' language definitions on input line 1654
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [20]
 Overfull \hbox (7.46167pt too wide) in paragraph at lines 1658--1672
 \T1/pplj/m/n/10.95 nomen-cla-ture is now self ex-plana-tory. Com-par-ing the ge
 n-er-a-tive model
  []
 
-<figures/graphon_figure_austere_v2.png, id=578, 1362.691pt x 1208.515pt>
+<figures/graphon_figure_austere_v2.png, id=595, 1362.691pt x 1208.515pt>
 File: figures/graphon_figure_austere_v2.png Graphic file (type png)
 
 <use figures/graphon_figure_austere_v2.png>
@@ -2033,13 +2000,8 @@ Package cleveref Info: loaded `english' language definitions on input line 1728
  [21]
 Package cleveref Info: loaded `english' language definitions on input line 1755
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[22 <./figures/graphon_figure_austere_v2.png>]
-<figures/random_measure_graph_correspondence_austere.png, id=601, 1942.457pt x 
+ [22 <./figures/graphon_figure_austere_v2.png>]
+<figures/random_measure_graph_correspondence_austere.png, id=619, 1942.457pt x 
 806.212pt>
 File: figures/random_measure_graph_correspondence_austere.png Graphic file (typ
 e png)
@@ -2058,21 +2020,12 @@ Package cleveref Info: loaded `english' language definitions on input line 1904
 [23 <./figures/random_measure_graph_correspondence_austere.png>]
 Package cleveref Info: loaded `english' language definitions on input line 1963
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[24]
-Package cleveref Info: loaded `english' language definitions on input line 2010
+ [24]
+Package cleveref Info: loaded `english' language definitions on input line 2012
 .
  [25]
 Package cleveref Info: loaded `english' language definitions on input line 2077
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
 
 [26]
 Overfull \hbox (1.3588pt too wide) in paragraph at lines 2098--2103
@@ -2110,11 +2063,6 @@ j/m/n/10.95 , \U/zeur/m/n/10.95 l[] \U/zeus/m/n/10.95 ^^U
 
 Package cleveref Info: loaded `english' language definitions on input line 2208
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [28]
 Overfull \hbox (1.76854pt too wide) in paragraph at lines 2209--2214
 \T1/pplj/m/n/10.95 or more specif-i-cally, their ad-ja-cency mea-sures. Be-caus
@@ -2157,11 +2105,6 @@ Overfull \hbox (7.8857pt too wide) in paragraph at lines 2348--2348
 
 Package cleveref Info: loaded `english' language definitions on input line 2355
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [30]
 Package cleveref Info: loaded `english' language definitions on input line 2410
 .
@@ -2177,11 +2120,6 @@ Overfull \hbox (32.94652pt too wide) in paragraph at lines 2444--2446
 
 Package cleveref Info: loaded `english' language definitions on input line 2474
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [32]
 Package cleveref Info: loaded `english' language definitions on input line 2585
 .
@@ -2194,11 +2132,6 @@ berg ex-change-able graph with graphex
 
 Package cleveref Info: loaded `english' language definitions on input line 2639
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [34]
 Package cleveref Info: loaded `english' language definitions on input line 2695
 .
@@ -2218,12 +2151,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 Package cleveref Info: loaded `english' language definitions on input line 2754
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[36]
+ [36]
 Overfull \hbox (4.62025pt too wide) in paragraph at lines 2788--2804
 []\T1/pplj/m/n/10.95 For any $\U/zeur/m/n/10.95 ^^U \U/zeus/m/n/10.95 2 \U/fplm
 bb/m/n/10.95 R[]$ \T1/pplj/m/n/10.95 the prob-a-bil-ity that $\U/zeur/m/n/10.95
@@ -2249,11 +2177,6 @@ Overfull \hbox (7.21346pt too wide) in paragraph at lines 2840--2840
 
 Package cleveref Info: loaded `english' language definitions on input line 2875
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [38]
 Package cleveref Info: loaded `english' language definitions on input line 2923
 .
@@ -2281,23 +2204,13 @@ berg ex-change-able graph with graphex
 
 Package cleveref Info: loaded `english' language definitions on input line 2976
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [40]
 Package cleveref Info: loaded `english' language definitions on input line 3051
 .
  [41]
 Package cleveref Info: loaded `english' language definitions on input line 3097
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[42]
+ [42]
 Package cleveref Info: loaded `english' language definitions on input line 3164
 .
  [43]
@@ -2305,12 +2218,7 @@ Package hyperref Info: bookmark level for unknown assumption defaults to 0 on i
 nput line 3189.
 Package cleveref Info: loaded `english' language definitions on input line 3224
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[44]
+ [44]
 Overfull \hbox (22.92009pt too wide) in paragraph at lines 3248--3254
 \T1/pplj/m/n/10.95 is the de-gree of point $\U/zeur/m/n/10.95 ^^U$\T1/pplj/m/n/
 10.95 . Con-di-tional on $\U/zeur/m/n/10.95 ^^E[]$ \T1/pplj/m/n/10.95 the de-gr
@@ -2337,11 +2245,6 @@ Overfull \hbox (14.23814pt too wide) in paragraph at lines 3302--3302
 
 Package cleveref Info: loaded `english' language definitions on input line 3318
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [46]
 Overfull \hbox (14.23814pt too wide) in paragraph at lines 3336--3336
 [] 
@@ -2352,12 +2255,7 @@ Package cleveref Info: loaded `english' language definitions on input line 3387
 [47]
 Package cleveref Info: loaded `english' language definitions on input line 3440
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[48]
+ [48]
 Overfull \hbox (14.3741pt too wide) in paragraph at lines 3485--3485
 [] 
  []
@@ -2367,12 +2265,7 @@ Package cleveref Info: loaded `english' language definitions on input line 3506
 [49]
 Package cleveref Info: loaded `english' language definitions on input line 3559
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[50]
+ [50]
 Overfull \hbox (0.5573pt too wide) in paragraph at lines 3563--3567
 \T1/pplj/m/n/10.95 For $\U/zeur/m/n/10.95 s^^V[]\U/zeus/m/n/10.95 ¨\U/zeur/m/n/
 10.95 x\U/zeus/m/n/10.95 © \U/zeur/m/n/10.95 > 2k[]$ \T1/pplj/m/n/10.95 the as-
@@ -2414,11 +2307,6 @@ ur/m/n/10.95 y \U/zeus/m/n/10.95 ½
 
 Package cleveref Info: loaded `english' language definitions on input line 3662
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [52]
 Overfull \hbox (38.92677pt too wide) in paragraph at lines 3662--3670
 \T1/pplj/m/n/10.95 next lemma can be un-der-stood as es-tab-lish-ing that $[][]
@@ -2460,11 +2348,6 @@ Overfull \hbox (20.12628pt too wide) in paragraph at lines 3772--3772
 
 Package cleveref Info: loaded `english' language definitions on input line 3779
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [54]
 Overfull \hbox (58.41638pt too wide) in paragraph at lines 3785--3785
 [] 
@@ -2505,11 +2388,6 @@ Overfull \hbox (5.7887pt too wide) in paragraph at lines 3856--3856
 
 Package cleveref Info: loaded `english' language definitions on input line 3882
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [56]
 Overfull \hbox (140.31798pt too wide) in paragraph at lines 3934--3934
 [] 
@@ -2533,12 +2411,7 @@ Overfull \hbox (6.08817pt too wide) in paragraph at lines 3968--3971
 
 Package cleveref Info: loaded `english' language definitions on input line 4030
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[58] <figures/sep_structure.png, id=1203, 981.6675pt x 949.5475pt>
+[58] <figures/sep_structure.png, id=1221, 981.6675pt x 949.5475pt>
 File: figures/sep_structure.png Graphic file (type png)
 
 <use figures/sep_structure.png>
@@ -2549,12 +2422,7 @@ Package cleveref Info: loaded `english' language definitions on input line 4061
  [59 <./figures/sep_structure.png>]
 Package cleveref Info: loaded `english' language definitions on input line 4142
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[60]
+ [60]
 Overfull \hbox (45.91501pt too wide) in paragraph at lines 4166--4169
 []\T1/pplj/m/it/10.95 Every el-e-ment of $\U/zeur/m/n/10.95 ^^E[]$ \T1/pplj/m/i
 t/10.95 con-nects to an edge; $[][] [] \U/zeus/m/n/10.95 ½
@@ -2582,11 +2450,6 @@ Overfull \hbox (42.7484pt too wide) in paragraph at lines 4211--4211
 
 Package cleveref Info: loaded `english' language definitions on input line 4249
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [62]
 Overfull \hbox (11.41321pt too wide) in paragraph at lines 4249--4261
 []\T1/pplj/b/n/10.95 Lemma 2.C.7. []\T1/pplj/m/it/10.95 Sup-pose $\U/zeur/m/n/1
@@ -2612,13 +2475,8 @@ Package cleveref Info: loaded `english' language definitions on input line 4314
 [63]
 Package cleveref Info: loaded `english' language definitions on input line 4382
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
-[64]
-<figures/negligible_vertex_structure.png, id=1288, 1068.99374pt x 963.6pt>
+ [64]
+<figures/negligible_vertex_structure.png, id=1306, 1068.99374pt x 963.6pt>
 File: figures/negligible_vertex_structure.png Graphic file (type png)
 
 <use figures/negligible_vertex_structure.png>
@@ -2639,11 +2497,6 @@ Overfull \hbox (70.37979pt too wide) in paragraph at lines 4483--4483
 
 Package cleveref Info: loaded `english' language definitions on input line 4483
 .
-
-Overfull \hbox (71.92542pt too wide) has occurred while \output is active
-[]|[]|  
- []
-
 [66])
 Package cleveref Info: loaded `english' language definitions on input line 497.
 
@@ -2671,7 +2524,7 @@ Overfull \hbox (13.46867pt too wide) in paragraph at lines 76--81
 
 Package cleveref Info: loaded `english' language definitions on input line 120.
 
-[70] <figures/dilated_emp_graphon_conv.png, id=1358, 1923.185pt x 1069.9975pt>
+[70] <figures/dilated_emp_graphon_conv.png, id=1377, 1923.185pt x 1069.9975pt>
 File: figures/dilated_emp_graphon_conv.png Graphic file (type png)
 
 <use figures/dilated_emp_graphon_conv.png>
@@ -2679,7 +2532,7 @@ Package pdftex.def Info: figures/dilated_emp_graphon_conv.png used on input lin
 e 153.
 (pdftex.def)             Requested size: 332.64185pt x 185.06458pt.
 
-<figures/triple_fig.png, id=1362, 2913.88625pt x 1033.8625pt>
+<figures/triple_fig.png, id=1381, 2913.88625pt x 1033.8625pt>
 File: figures/triple_fig.png Graphic file (type png)
 
 <use figures/triple_fig.png>
@@ -2918,126 +2771,128 @@ Package cleveref Info: loaded `english' language definitions on input line 498.
 ]
 chapter 4.
 [97]
-Package cleveref Info: loaded `english' language definitions on input line 110.
+Package cleveref Info: loaded `english' language definitions on input line 113.
 
  [98]
-Package cleveref Info: loaded `english' language definitions on input line 162.
+Package cleveref Info: loaded `english' language definitions on input line 157.
 
  [99]
-Overfull \hbox (49.53613pt too wide) in paragraph at lines 163--173
-\T1/pplj/m/n/10.95 is some in-te-grable graphex $\U/zeus/m/n/10.95 W$ \T1/pplj/
-m/n/10.95 such that, for all $\U/zeur/m/n/10.95 s \U/zeus/m/n/10.95 2 \U/fplmbb
-/m/n/10.95 R[]$\T1/pplj/m/n/10.95 , $[][][][] []
- []
+Package cleveref Info: loaded `english' language definitions on input line 231.
 
-Package cleveref Info: loaded `english' language definitions on input line 217.
-
-[100]
-Package cleveref Info: loaded `english' language definitions on input line 260.
+ [100]
+Package cleveref Info: loaded `english' language definitions on input line 274.
 
  [101]
-Package cleveref Info: loaded `english' language definitions on input line 330.
+Package cleveref Info: loaded `english' language definitions on input line 318.
 
  [102]
-Package cleveref Info: loaded `english' language definitions on input line 357.
+Package cleveref Info: loaded `english' language definitions on input line 361.
 
  [103]
-Overfull \hbox (4.79633pt too wide) in paragraph at lines 361--371
+Package cleveref Info: loaded `english' language definitions on input line 413.
+
+ [104]
+Overfull \hbox (4.79633pt too wide) in paragraph at lines 417--427
 []\T1/pplj/m/n/10.95 The re-la-tion-ship be-tween sam-pling con-ver-gence of a 
 graph se-quence
  []
 
 
-Overfull \hbox (0.33974pt too wide) in paragraph at lines 361--371
+Overfull \hbox (0.33974pt too wide) in paragraph at lines 417--427
 \T1/pplj/m/n/10.95 and the dis-tri-bu-tional con-ver-gence of the canon-i-cal l
 a-bel-ings is closely
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 417.
+Package cleveref Info: loaded `english' language definitions on input line 472.
 
-[104]
-Package cleveref Info: loaded `english' language definitions on input line 479.
+[105]
+Package cleveref Info: loaded `english' language definitions on input line 534.
 
- [105]
-Overfull \hbox (11.43277pt too wide) in paragraph at lines 480--496
+ [106]
+Overfull \hbox (11.43277pt too wide) in paragraph at lines 535--551
 \U/zeuex/m/n/10.95 ™$\T1/pplj/m/n/10.95 , but it is not hard to ex-tend this re
 -sult to gen-eral in-te-grable graphexes,
  []
 
-<figures/stretched_graphon_out.png, id=1827, 3796.07684pt x 4602.4579pt>
+<figures/stretched_graphon_out.png, id=1863, 3796.07684pt x 4602.4579pt>
 File: figures/stretched_graphon_out.png Graphic file (type png)
 
 <use figures/stretched_graphon_out.png>
-Package pdftex.def Info: figures/stretched_graphon_out.png used on input line 4
-98.
-(pdftex.def)             Requested size: 168.0pt x 203.6605pt.
-Package cleveref Info: loaded `english' language definitions on input line 543.
+Package pdftex.def Info: figures/stretched_graphon_out.png used on input line 5
+53.
+(pdftex.def)             Requested size: 218.39795pt x 264.75867pt.
+Package cleveref Info: loaded `english' language definitions on input line 583.
 
- [106]
-Package cleveref Info: loaded `english' language definitions on input line 543.
+ [107]
+Package cleveref Info: loaded `english' language definitions on input line 583.
 
- [107 <./figures/stretched_graphon_out.png>]
-Overfull \hbox (0.42162pt too wide) in paragraph at lines 545--564
+ [108 <./figures/stretched_graphon_out.png>]
+Overfull \hbox (0.42162pt too wide) in paragraph at lines 605--623
 \T1/pplj/m/n/10.95 tantly, the lim-its are graphexes---are given in Sec-tion []
 []4.3[][]. In Sec-tion [][]4.4[][]
  []
 
 
-Overfull \hbox (3.27425pt too wide) in paragraph at lines 572--578
+Overfull \hbox (3.27425pt too wide) in paragraph at lines 631--636
 []\T1/pplj/m/n/10.95 There are two main no-tions of dis-tance be-tween in-te-gr
 able graphons
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 578.
+Package cleveref Info: loaded `english' language definitions on input line 636.
 
-[108]
-Overfull \hbox (3.46375pt too wide) in paragraph at lines 578--582
+[109]
+Overfull \hbox (3.46375pt too wide) in paragraph at lines 638--642
 []\T1/pplj/b/n/10.95 Definition 4.2.1. []\T1/pplj/m/n/10.95 The \T1/pplj/m/it/1
 0.95 in-vari-ant $\U/zeur/m/n/10.95 L[]$ \T1/pplj/m/it/10.95 dis-tance \T1/pplj
 /m/n/10.95 be-tween in-te-grable graphons
  []
 
 
-Overfull \hbox (9.49pt too wide) in paragraph at lines 596--596
+Overfull \hbox (9.49pt too wide) in paragraph at lines 658--658
 [] 
  []
 
+Package cleveref Info: loaded `english' language definitions on input line 698.
 
-Overfull \hbox (2.00406pt too wide) in paragraph at lines 632--634
+[110]
+Overfull \hbox (2.00406pt too wide) in paragraph at lines 699--700
 []\T1/pplj/m/n/10.95 We now have an ob-vi-ous no-tion for con-ver-gence of grap
-h se-quences.
+h se-quences. 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 634.
 
-[109]
-Package cleveref Info: loaded `english' language definitions on input line 686.
+Overfull \hbox (2.39897pt too wide) in paragraph at lines 725--731
+\T1/pplj/m/n/10.95 reg-u-lar tail con-di-tion re-quires the graphs to have ``de
+nse cores,'' where
+ []
 
- [110]
-Overfull \hbox (24.4284pt too wide) in paragraph at lines 692--701
+Package cleveref Info: loaded `english' language definitions on input line 760.
+
+[111]
+Overfull \hbox (24.4284pt too wide) in paragraph at lines 768--777
 []\T1/pplj/b/n/10.95 Definition 4.2.9. []\T1/pplj/m/n/10.95 A \T1/pplj/m/it/10.
 95 with-replacement $\U/zeur/m/n/10.95 p$\T1/pplj/m/it/10.95 -sampling \T1/pplj
 /m/n/10.95 of a graph $\U/zeur/m/n/10.95 G$\T1/pplj/m/n/10.95 , $[][][][]$,
  []
 
 
-Overfull \hbox (9.87273pt too wide) in paragraph at lines 721--726
+Overfull \hbox (9.87273pt too wide) in paragraph at lines 802--807
 []\T1/pplj/b/n/10.95 Lemma 4.2.11. []\T1/pplj/m/it/10.95 Let $\U/zeur/m/n/10.95
  G[]\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 G[]\T1/pplj/m/n/10.95 , [] $ \T1/ppl
 j/m/it/10.95 be some se-quence of graphs such that $\U/zeur/m/n/10.95 e\U/zeus/
 m/n/10.95 ¨\U/zeur/m/n/10.95 G[]\U/zeus/m/n/10.95 © !
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 743.
+Package cleveref Info: loaded `english' language definitions on input line 824.
 
-[111]
-Overfull \hbox (15.01723pt too wide) in paragraph at lines 751--757
+[112]
+Overfull \hbox (15.01723pt too wide) in paragraph at lines 838--844
 \T1/pplj/m/n/10.95 pro-cesses viewed as ran-dom mea-sures. Good ref-er-ences in
 -clude [[][]DVJ03a[][];
  []
 
 
-Overfull \hbox (35.54272pt too wide) in paragraph at lines 762--767
+Overfull \hbox (35.54272pt too wide) in paragraph at lines 850--855
 \T1/pplj/m/it/10.95 Then $\U/zeur/m/n/10.95 ^^X[] [] ^^X$ \T1/pplj/m/it/10.95 a
 s $\U/zeur/m/n/10.95 j \U/zeus/m/n/10.95 ! \U/zeuex/m/n/10.95 ™$ \T1/pplj/m/it/
 10.95 if and only if $\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 ^^X[]\U/zeus/m/n/10.
@@ -3048,160 +2903,144 @@ s $\U/zeur/m/n/10.95 j \U/zeus/m/n/10.95 ! \U/zeuex/m/n/10.95 ™$ \T1/pplj/m/it/
 10.95 B[]\U/zeus/m/n/10.95 ©©$
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 788.
+Package cleveref Info: loaded `english' language definitions on input line 877.
 
-[112]
-Overfull \hbox (63.98143pt too wide) in paragraph at lines 806--814
+[113]
+Overfull \hbox (63.98143pt too wide) in paragraph at lines 899--907
 \U/zeuex/m/n/10.95 ™$\T1/pplj/m/it/10.95 . The graph se-quence is sam-pling con
 -ver-gent if and only if $[][][][][]\T1/pplj/m/n/10.95 , [][][][][], [] $
  []
 
+Package cleveref Info: loaded `english' language definitions on input line 929.
 
-Overfull \hbox (14.09807pt too wide) in paragraph at lines 854--854
-[][]\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 G[]\U/zeus/m/n/10.95 ©j[]$\T1/pplj/m/n
-/10.95 . The right hand side con-verges in dis-tri-bu-tion be-cause $[][]\U/zeu
-s/m/n/10.95 ¨\U/zeur/m/n/10.95 G[]\U/zeus/m/n/10.95 ©j[]$
+[114]
+Overfull \hbox (14.38524pt too wide) in paragraph at lines 945--945
+[] 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 854.
 
-[113]
-Overfull \hbox (20.38911pt too wide) in paragraph at lines 884--886
+Overfull \hbox (20.38911pt too wide) in paragraph at lines 978--980
 []\T1/pplj/m/n/10.95 We now turn to es-tab-lish-ing that the lim-it-ing graphex
  $\U/zeus/m/n/10.95 W$ \T1/pplj/m/n/10.95 in Lemma [][]4.3.3[][]
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 900.
+Package cleveref Info: loaded `english' language definitions on input line 988.
 
-[114]
-Overfull \hbox (35.2103pt too wide) in paragraph at lines 917--917
+[115]
+Overfull \hbox (35.2103pt too wide) in paragraph at lines 1011--1011
 [] 
  []
 
 
-Overfull \hbox (3.3457pt too wide) in paragraph at lines 934--945
-\T1/pplj/m/n/10.95 equiv-a-lence of $[][][][]$ and $[][][][]$. Let
+Overfull \hbox (57.14932pt too wide) in paragraph at lines 1028--1039
+\T1/pplj/m/n/10.95 the asymp-totic equiv-a-lence of $[][][][]$ and $[][][][]$.
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 968.
-
-[115]
-Overfull \hbox (8.7256pt too wide) in paragraph at lines 969--972
-[]\T1/pplj/b/n/10.95 Lemma 4.3.7. []\T1/pplj/m/it/10.95 Let $\U/zeus/m/n/10.95 
+Package cleveref Info: loaded `english' language definitions on input line 1059
+.
+[116]
+Overfull \hbox (5.98737pt too wide) in paragraph at lines 1066--1070
+[]\T1/pplj/b/n/10.95 Lemma 4.3.6. []\T1/pplj/m/it/10.95 Let $\U/zeus/m/n/10.95 
 ¨\U/zeur/m/n/10.95 ^^@[]\U/zeus/m/n/10.95 ©[]$ \T1/pplj/m/it/10.95 be gen-er-at
 ed by $\U/zeus/m/n/10.95 W ½ ¨\U/zeur/m/n/10.95 I\T1/pplj/m/n/10.95 , \U/zeur/m
 /n/10.95 S\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 W\U/zeus/m/n/10.95 ©$\T1/pplj/
-m/it/10.95 . Then, $\U/fplmbb/m/n/10.95 E\U/zeus/m/n/10.95 Û\U/zeur/m/n/10.95 e
-\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 ^^@[]\U/zeus/m/n/10.95 ©Ý ½
+m/it/10.95 . Then $\U/fplmbb/m/n/10.95 E\U/zeus/m/n/10.95 Û\U/zeur/m/n/10.95 e\
+U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 ^^@[]\U/zeus/m/n/10.95 ©Ý ½
  []
 
 
-Overfull \hbox (26.86186pt too wide) in paragraph at lines 980--982
+Overfull \hbox (24.1236pt too wide) in paragraph at lines 1079--1081
 []\T1/pplj/m/n/10.95 By [[][]VR15[][], The-o-rem 5.3], $\U/fplmbb/m/n/10.95 E\U
 /zeus/m/n/10.95 Û\U/zeur/m/n/10.95 e[]\U/zeus/m/n/10.95 Ý ½ \U/zeur/m/n/10.95 s
-[][]\U/zeus/m/n/10.95 k\U/zeur/m/n/10.95 W\U/zeus/m/n/10.95 k[]$\T1/pplj/m/n/10
-.95 , []and $\U/fplmbb/m/n/10.95 E\U/zeus/m/n/10.95 Û\U/zeur/m/n/10.95 l\U/zeus
-/m/n/10.95 ¨\U/zeur/m/n/10.95 ^^@[]\U/zeus/m/n/10.95 ©Ý ½ \U/zeur/m/n/10.95 s [
-] W\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 x\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95
- x\U/zeus/m/n/10.95 © \T1/pplj/m/n/10.95 d\U/zeur/m/n/10.95 x$\T1/pplj/m/n/10.9
-5 .[] 
+[][]\U/zeus/m/n/10.95 k\U/zeur/m/n/10.95 W\U/zeus/m/n/10.95 k[]$ \T1/pplj/m/n/1
+0.95 and $\U/fplmbb/m/n/10.95 E\U/zeus/m/n/10.95 Û\U/zeur/m/n/10.95 l\U/zeus/m/
+n/10.95 ¨\U/zeur/m/n/10.95 ^^@[]\U/zeus/m/n/10.95 ©Ý ½ \U/zeur/m/n/10.95 s [] W
+\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 x\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 x\
+U/zeus/m/n/10.95 © \T1/pplj/m/n/10.95 d\U/zeur/m/n/10.95 x$\T1/pplj/m/n/10.95 .
+ 
  []
 
-
-Overfull \hbox (41.3282pt too wide) in paragraph at lines 1020--1023
-\T1/pplj/m/it/10.95 grable, with $[]\U/zeus/m/n/10.95 k\U/zeur/m/n/10.95 W\U/ze
-us/m/n/10.95 k[] « k\U/zeur/m/n/10.95 S\U/zeus/m/n/10.95 k[] « \U/zeur/m/n/10.9
-5 I \U/zeus/m/n/10.95 ^^T \U/zeur/m/n/10.95 1=2$ []\T1/pplj/m/it/10.95 and $[] 
-\U/zeur/m/n/10.95 W\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 x\T1/pplj/m/n/10.95 , \
-U/zeur/m/n/10.95 x\U/zeus/m/n/10.95 © \T1/pplj/m/n/10.95 d\U/zeur/m/n/10.95 x \
-U/zeus/m/n/10.95 ½ [][] \U/zeur/m/n/10.95 l\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95
- G[]\U/zeus/m/n/10.95 ©\U/zeur/m/n/10.95 =[]$[]\T1/pplj/m/it/10.95 .
- []
-
-
-Overfull \hbox (27.65036pt too wide) in paragraph at lines 1031--1032
-\T1/pplj/m/n/10.95 the lim-it-ing graph. Ob-serve that $\U/zeur/m/n/10.95 l\U/z
-eus/m/n/10.95 ¨[][][][]©  ^^X  []¨\U/zeur/m/n/10.95 l\U/zeus/m/n/10.95 ¨\U/zeur
-/m/n/10.95 G[]\U/zeus/m/n/10.95 ©\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 r=[]\U/
-zeus/m/n/10.95 ©$\T1/pplj/m/n/10.95 ,
- []
-
-
-Overfull \hbox (56.03802pt too wide) in paragraph at lines 1031--1032
-\T1/pplj/m/n/10.95 loops in the orig-i-nal graph. It then fol-lows that $\U/fpl
-mbb/m/n/10.95 E\U/zeus/m/n/10.95 Û\U/zeur/m/n/10.95 l\U/zeus/m/n/10.95 ¨\U/zeur
-/m/n/10.95 P\U/zeus/m/n/10.95 ©Ý ½ \U/zeur/m/n/10.95 r [][] l\U/zeus/m/n/10.95 
-¨\U/zeur/m/n/10.95 G[]\U/zeus/m/n/10.95 ©\U/zeur/m/n/10.95 =[]$
- []
-
-Package cleveref Info: loaded `english' language definitions on input line 1032
-.
-[116]
-Overfull \hbox (18.11835pt too wide) in paragraph at lines 1033--1038
-\T1/pplj/m/n/10.95 By Fa-tou's lemma, $\U/fplmbb/m/n/10.95 E\U/zeus/m/n/10.95 Û
-\U/zeur/m/n/10.95 e\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 P\U/zeus/m/n/10.95 ¨^^A
- \ Û\U/zeur/m/n/10.95 0\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 r\U/zeus/m/n/10.9
-5 ©[]©©Ý ^^T [][] \U/fplmbb/m/n/10.95 E\U/zeus/m/n/10.95 Û\U/zeur/m/n/10.95 e\U
-/zeus/m/n/10.95 ¨[][]¨\U/zeur/m/n/10.95 G[]\U/zeus/m/n/10.95 ©¨^^A \ Û\U/zeur/m
-/n/10.95 0\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 r\U/zeus/m/n/10.95 ©[]©©Ý ½
- []
-
-
-Overfull \hbox (82.30887pt too wide) in paragraph at lines 1064--1064
-[] 
- []
-
-Package cleveref Info: loaded `english' language definitions on input line 1077
+Package cleveref Info: loaded `english' language definitions on input line 1120
 .
 [117]
-Overfull \hbox (61.44453pt too wide) in paragraph at lines 1136--1136
+Overfull \hbox (41.3282pt too wide) in paragraph at lines 1121--1125
+\T1/pplj/m/it/10.95 grable, with $[]\U/zeus/m/n/10.95 k\U/zeur/m/n/10.95 W\U/ze
+us/m/n/10.95 k[] « k\U/zeur/m/n/10.95 S\U/zeus/m/n/10.95 k[] « \U/zeur/m/n/10.9
+5 I \U/zeus/m/n/10.95 ^^T \U/zeur/m/n/10.95 1=2$ \T1/pplj/m/it/10.95 and $[] \U
+/zeur/m/n/10.95 W\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 x\T1/pplj/m/n/10.95 , \U/
+zeur/m/n/10.95 x\U/zeus/m/n/10.95 © \T1/pplj/m/n/10.95 d\U/zeur/m/n/10.95 x \U/
+zeus/m/n/10.95 ½ [][] \U/zeur/m/n/10.95 l\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 G
+[]\U/zeus/m/n/10.95 ©\U/zeur/m/n/10.95 =[]$\T1/pplj/m/it/10.95 .
+ []
+
+
+Overfull \hbox (5.92418pt too wide) in paragraph at lines 1128--1130
+[]\T1/pplj/m/n/10.95 Let $[][]$ be the lim-it-ing point pro-cess as in the proo
+f of Lemma [][]4.3.3[][]. 
+ []
+
+
+Overfull \hbox (10.04279pt too wide) in paragraph at lines 1131--1138
+\T1/pplj/m/n/10.95 lim-it-ing graph. Ob-serve that $\U/zeur/m/n/10.95 l\U/zeus/
+m/n/10.95 ¨[][][][]©  ^^X  []¨\U/zeur/m/n/10.95 l\U/zeus/m/n/10.95 ¨\U/zeur/m/n
+/10.95 G[]\U/zeus/m/n/10.95 ©\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 r=[]\U/zeus
+/m/n/10.95 ©$\T1/pplj/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (55.49052pt too wide) in paragraph at lines 1131--1138
+\T1/pplj/m/n/10.95 loops in the orig-i-nal graph. It then fol-lows that $\U/fpl
+mbb/m/n/10.95 E\U/zeus/m/n/10.95 Û\U/zeur/m/n/10.95 l\U/zeus/m/n/10.95 ¨[][]©Ý 
+½ \U/zeur/m/n/10.95 r [][] l\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 G[]\U/zeus/m/n
+/10.95 ©\U/zeur/m/n/10.95 =[]$
+ []
+
+
+Overfull \hbox (28.52084pt too wide) in paragraph at lines 1139--1144
+[]\T1/pplj/m/n/10.95 By Fa-tou's lemma, $\U/fplmbb/m/n/10.95 E\U/zeus/m/n/10.95
+ Û\U/zeur/m/n/10.95 e\U/zeus/m/n/10.95 ¨[][]¨^^A \ Û\U/zeur/m/n/10.95 0\T1/pplj
+/m/n/10.95 , \U/zeur/m/n/10.95 r\U/zeus/m/n/10.95 ©[]©©Ý ^^T [][] \U/fplmbb/m/n
+/10.95 E\U/zeus/m/n/10.95 Û\U/zeur/m/n/10.95 e\U/zeus/m/n/10.95 ¨[][]¨\U/zeur/m
+/n/10.95 G[]\U/zeus/m/n/10.95 ©¨^^A \ Û\U/zeur/m/n/10.95 0\T1/pplj/m/n/10.95 , 
+\U/zeur/m/n/10.95 r\U/zeus/m/n/10.95 ©[]©©Ý ½
+ []
+
+
+Overfull \hbox (82.30887pt too wide) in paragraph at lines 1170--1170
 [] 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 1140
+Package cleveref Info: loaded `english' language definitions on input line 1176
 .
 [118]
-Package cleveref Info: loaded `english' language definitions on input line 1185
+Package cleveref Info: loaded `english' language definitions on input line 1224
 .
  [119]
-Overfull \hbox (18.49924pt too wide) in paragraph at lines 1224--1230
+Overfull \hbox (50.49454pt too wide) in paragraph at lines 1228--1228
+[] 
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 1287
+.
+[120]
+Overfull \hbox (21.54333pt too wide) in paragraph at lines 1332--1340
 \T1/pplj/m/n/10.95 each pixel is $\U/zeur/m/n/10.95 1=s \U/zeus/m/n/10.95 ^^B \
 U/zeur/m/n/10.95 1=s$\T1/pplj/m/n/10.95 . [[][]Jan17[][], The-o-rem 5.1] shows 
 that $[][][][] \U/zeus/m/n/10.95 !
  []
 
 
-Overfull \hbox (15.97003pt too wide) in paragraph at lines 1224--1230
-[][][][]$ \T1/pplj/m/n/10.95 weakly al-most surely. As re-marked ear-lier, $[][
-][][] \U/zeus/m/n/10.95 ½
- []
-
-
-Overfull \hbox (6.4467pt too wide) in paragraph at lines 1224--1230
+Overfull \hbox (6.4467pt too wide) in paragraph at lines 1332--1340
 [][][][]$\T1/pplj/m/n/10.95 , and so the re-sult fol-lows from the asymp-
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 1230
+Package cleveref Info: loaded `english' language definitions on input line 1340
 .
-[120]
-Package cleveref Info: loaded `english' language definitions on input line 1290
-.
-
-Overfull \hbox (7.78413pt too wide) has occurred while \output is active
- []|[]|
- []
-
 [121]
-Overfull \hbox (3.18735pt too wide) in paragraph at lines 1292--1297
-[]\T1/pplj/b/n/10.95 Theorem 4.4.3. []\T1/pplj/m/it/10.95 Let $\U/zeus/m/n/10.9
-5 ¨\U/zeur/m/n/10.95 ^^@[]\U/zeus/m/n/10.95 ©[]$ \T1/pplj/m/it/10.95 be a KEG g
-en-er-ated by graphex $\U/zeus/m/n/10.95 W ½ ¨\U/zeur/m/n/10.95 I\T1/pplj/m/n/1
-0.95 , \U/zeur/m/n/10.95 S\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 W\U/zeus/m/n/1
-0.95 ©$
- []
-
-
-Overfull \hbox (43.76593pt too wide) in paragraph at lines 1305--1309
+Package cleveref Info: loaded `english' language definitions on input line 1404
+.
+ [122]
+Overfull \hbox (43.76593pt too wide) in paragraph at lines 1419--1423
 []\T1/pplj/m/n/10.95 Let $\U/zeus/m/n/10.95 W[] ½ ¨\U/zeur/m/n/10.95 c[]I\T1/pp
 lj/m/n/10.95 , \U/zeur/m/n/10.95 cS\U/zeus/m/n/10.95 ¨^^A\U/zeur/m/n/10.95 =c\U
 /zeus/m/n/10.95 ©\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 W\U/zeus/m/n/10.95 ¨^^A
@@ -3211,35 +3050,34 @@ lj/m/n/10.95 , \U/zeur/m/n/10.95 cS\U/zeus/m/n/10.95 ¨^^A\U/zeur/m/n/10.95 =c\U
  []
 
 
-Overfull \hbox (27.8682pt too wide) in paragraph at lines 1314--1321
-\U/zeur/m/n/10.95 q=p\U/zeus/m/n/10.95 ©Ý$\T1/pplj/m/n/10.95 , and the claimed 
-in-equal-ity fol-lows by $\U/zeur/m/n/10.95 v\U/zeus/m/n/10.95 ¨[][][][]© ^^T \
-U/zeur/m/n/10.95 2e\U/zeus/m/n/10.95 ¨[][][][]©$
+Overfull \hbox (51.43188pt too wide) in paragraph at lines 1428--1435
+\T1/pplj/m/n/10.95 Namely, we sam-ple $[][][][]$ as usual, and $[][][][]$ as $[
+][][][]$.
  []
 
 
-Overfull \hbox (15.44655pt too wide) in paragraph at lines 1371--1371
+Overfull \hbox (15.44655pt too wide) in paragraph at lines 1461--1461
 [] 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 1371
+Package cleveref Info: loaded `english' language definitions on input line 1461
 .
-[122]
-Overfull \hbox (50.94362pt too wide) in paragraph at lines 1371--1371
+[123]
+Overfull \hbox (50.94362pt too wide) in paragraph at lines 1468--1468
 [] 
  []
 
 
-Overfull \hbox (45.0311pt too wide) in paragraph at lines 1371--1371
+Overfull \hbox (33.17224pt too wide) in paragraph at lines 1468--1475
 \T1/pplj/m/n/10.95 Let $\U/zeur/m/n/10.95 c \U/zeus/m/n/10.95 2 ¨\U/zeur/m/n/10
 .95 0\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 1\U/zeus/m/n/10.95 Ý$ \T1/pplj/m/n/
 10.95 and choose $\U/zeur/m/n/10.95 S[]\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 S
-[]\T1/pplj/m/n/10.95 , [] $ such that $[][] []\U/zeur/m/n/10.95 =[] \U/zeus/m/n
-/10.95 ½
+[]\T1/pplj/m/n/10.95 , [] $ so that $[][] []\U/zeur/m/n/10.95 =[] \U/zeus/m/n/1
+0.95 ½
  []
 
 
-Overfull \hbox (12.43915pt too wide) in paragraph at lines 1371--1371
+Overfull \hbox (12.43915pt too wide) in paragraph at lines 1482--1488
 \T1/pplj/m/n/10.95 the ar-gu-ment of The-o-rem [][]4.4.3[][], us-ing that $[][]
  \U/zeur/m/n/10.95 l\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 ^^@[]\U/zeus/m/n/10.95
  ©\U/zeur/m/n/10.95 =s \U/zeus/m/n/10.95 ½ [] \U/zeur/m/n/10.95 W\U/zeus/m/n/10
@@ -3247,48 +3085,56 @@ Overfull \hbox (12.43915pt too wide) in paragraph at lines 1371--1371
 95 © \T1/pplj/m/n/10.95 d\U/zeur/m/n/10.95 x$
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 1396
+Package cleveref Info: loaded `english' language definitions on input line 1516
 .
-[123]
-Overfull \hbox (3.22021pt too wide) in paragraph at lines 1414--1417
+[124]
+Overfull \hbox (3.22021pt too wide) in paragraph at lines 1537--1541
 []\T1/pplj/m/n/10.95 The graphs are equal if there are no edges that dis-agree,
  so Markov's
  []
 
 
-Overfull \hbox (36.26572pt too wide) in paragraph at lines 1417--1423
+Overfull \hbox (36.26572pt too wide) in paragraph at lines 1541--1547
 \T1/pplj/m/n/10.95 For any mea-sure pre-serv-ing trans-for-ma-tions $\U/zeur/m/
 n/10.95 ^^^$ \T1/pplj/m/n/10.95 of $\U/fplmbb/m/n/10.95 R[]$\T1/pplj/m/n/10.95 
 , $[][][][] \U/zeus/m/n/10.95 ½
  []
 
 
-Overfull \hbox (2.6998pt too wide) in paragraph at lines 1423--1423
+Overfull \hbox (2.6998pt too wide) in paragraph at lines 1547--1547
 [] 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 1451
+Package cleveref Info: loaded `english' language definitions on input line 1576
 .
-[124]
-Overfull \hbox (6.36588pt too wide) in paragraph at lines 1456--1457
+[125]
+Overfull \hbox (7.18712pt too wide) in paragraph at lines 1581--1583
 []\T1/pplj/m/n/10.95 Include each edge $\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 k\
 T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 l\U/zeus/m/n/10.95 ©$ \T1/pplj/m/n/10.95 
 in-de-pen-dently with prob-a-bil-ity $\U/zeur/m/n/10.95 W\U/zeus/m/n/10.95 ¨\U/
 zeur/m/n/10.95 x[]\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 x[]\U/zeus/m/n/10.95 ©
-$ 
+$\T1/pplj/m/n/10.95 . 
  []
 
 
-Overfull \hbox (30.57097pt too wide) in paragraph at lines 1479--1480
+Overfull \hbox (30.57097pt too wide) in paragraph at lines 1600--1606
 \T1/pplj/m/n/10.95 It is im-me-di-ate that the limit is also $\U/zeur/m/n/10.95
  0$ \T1/pplj/m/n/10.95 un-con-di-tion-ally; that is, $[][][][] \U/zeus/m/n/10.9
 5 !
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 1512
+Package cleveref Info: loaded `english' language definitions on input line 1638
 .
-[125]
-Overfull \hbox (10.60641pt too wide) in paragraph at lines 1541--1547
+[126]
+Overfull \hbox (5.97537pt too wide) in paragraph at lines 1648--1658
+\T1/pplj/m/n/10.95 for each $\U/zeur/m/n/10.95 j \U/zeus/m/n/10.95 2 \U/fplmbb/
+m/n/10.95 N$\T1/pplj/m/n/10.95 , there is a mea-sure pre-serv-ing trans-for-ma-
+tion $\U/zeur/m/n/10.95 ^^^[] [] [] \U/fplmbb/m/n/10.95 R[] \U/zeus/m/n/10.95 !
+
+ []
+
+
+Overfull \hbox (10.60641pt too wide) in paragraph at lines 1667--1673
 \U/zeur/m/n/10.95 W[]1[]$ \T1/pplj/m/n/10.95 us-ing $\U/zeur/m/n/10.95 ^^E$\T1/
 pplj/m/n/10.95 . Draw $\U/zeur/m/n/10.95 ^^E \U/zeus/m/n/10.95 j \U/zeur/m/n/10
 .95 G[]  \U/zeus/m/n/10.95 ^^X  []¨¨\U/zeur/m/n/10.95 ^^E\T1/pplj/m/n/10.95 , \
@@ -3296,10 +3142,10 @@ U/zeur/m/n/10.95 G[]\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 W[]1[]\U/zeus/m/n/10.9
 5 ©© 2
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 1566
+Package cleveref Info: loaded `english' language definitions on input line 1692
 .
-[126]
-Overfull \hbox (16.25398pt too wide) in paragraph at lines 1586--1586
+[127]
+Overfull \hbox (16.25398pt too wide) in paragraph at lines 1699--1704
 \T1/pplj/m/n/10.95 any $\U/zeur/m/n/10.95 ^^O[] > 0$\T1/pplj/m/n/10.95 , there 
 is some $\U/zeur/m/n/10.95 ^^N > 0$ \T1/pplj/m/n/10.95 such that $\U/zeur/m/n/1
 0.95 ^^N[]\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 W[]1[]\T1/pplj/m/n/10.95 , \U/ze
@@ -3307,65 +3153,104 @@ ur/m/n/10.95 W1[]\U/zeus/m/n/10.95 © \U/zeur/m/n/10.95 <
  []
 
 
-Overfull \hbox (128.17471pt too wide) in paragraph at lines 1586--1586
+Overfull \hbox (61.0639pt too wide) in paragraph at lines 1709--1709
 [] 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 1623
+
+Overfull \hbox (1.15314pt too wide) in paragraph at lines 1746--1752
+\T1/pplj/m/n/10.95 pling $[][][][]$ ver-tices with re-place-ment from $\U/zeur/
+m/n/10.95 G[]$ \T1/pplj/m/n/10.95 and then
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 1755
 .
-[127]
-Overfull \hbox (0.89182pt too wide) in paragraph at lines 1640--1647
+[128]
+Overfull \hbox (0.89182pt too wide) in paragraph at lines 1776--1783
 []\T1/pplj/m/n/10.95 Assume the se-quence is sam-pling con-ver-gent. Be-cause t
 he se-quence
  []
 
 
-Overfull \hbox (31.99446pt too wide) in paragraph at lines 1669--1676
-\U/zeur/m/n/10.95 ^^N[]$\T1/pplj/m/n/10.95 -Cauchy, the con-verse fol-lows from
- the ob-ser-va-tion that $\U/zeus/m/n/10.95 k[][][][] ^^@
+Overfull \hbox (4.23439pt too wide) in paragraph at lines 1799--1800
+[]\T1/pplj/b/n/10.95 Definition 4.6.1. []\T1/pplj/m/n/10.95 Let $\U/zeur/m/n/10
+.95 ^^N[]$ \T1/pplj/m/n/10.95 be a pseu-do-met-ric on graphexes that metrizes
  []
 
 
-Overfull \hbox (62.76183pt too wide) in paragraph at lines 1669--1676
-\T1/pplj/m/n/10.95 which is in turn clear from $[][][][] [] [][][][]$. 
+Overfull \hbox (11.31581pt too wide) in paragraph at lines 1801--1803
+[]$\U/zeur/m/n/10.95 ^^N[]$ \T1/pplj/m/n/10.95 is a proper met-ric on the space
+ of equiv-a-lence classes of graphexes
  []
 
 
-Overfull \hbox (5.22203pt too wide) in paragraph at lines 1678--1682
-[]\T1/pplj/m/it/10.95 Remark \T1/pplj/m/n/10.95 4.6.2\T1/pplj/m/it/10.95 . []\T
-1/pplj/m/n/10.95 We could also have de-fined $\U/zeur/m/n/10.95 ^^N[]\U/zeus/m/
-n/10.95 ¨\U/zeur/m/n/10.95 G\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 H\U/zeus/m/n
-/10.95 © ½ \U/zeur/m/n/10.95 ^^N[]\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 W[]\T1/p
-plj/m/n/10.95 , \U/zeur/m/n/10.95 W[]\U/zeus/m/n/10.95 ©$
+Overfull \hbox (0.62335pt too wide) in paragraph at lines 1808--1814
+[]$\U/zeur/m/n/10.95 ^^N[]$ \T1/pplj/m/n/10.95 metrizes sam-pling con-ver-gence
+: For se-quences such that $\U/zeur/m/n/10.95 e\U/zeus/m/n/10.95 ¨\U/zeur/m/n/1
+0.95 G[]\U/zeus/m/n/10.95 ©  "
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 1687
+Package cleveref Info: loaded `english' language definitions on input line 1814
 .
-[128]
-Package cleveref Info: loaded `english' language definitions on input line 1753
+[129]
+Overfull \hbox (3.28748pt too wide) in paragraph at lines 1816--1818
+\T1/pplj/m/n/10.95 graphs equipped with $\U/zeur/m/n/10.95 ^^N[]$ \T1/pplj/m/n/
+10.95 (iden-ti-fy-ing $\U/zeur/m/n/10.95 G$ \T1/pplj/m/n/10.95 and $\U/zeur/m/n
+/10.95 H$ \T1/pplj/m/n/10.95 when-ever $\U/zeur/m/n/10.95 ^^N[]\U/zeus/m/n/10.9
+5 ¨\U/zeur/m/n/10.95 G\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 H\U/zeus/m/n/10.95
+ © ½
+ []
+
+
+Overfull \hbox (8.1234pt too wide) in paragraph at lines 1827--1830
+[]\T1/pplj/b/n/10.95 Definition 4.6.5. []\T1/pplj/m/n/10.95 Let $\U/rsfs/m/n/10
+.95 W$ \T1/pplj/m/n/10.95 be the space of equiv-a-lence classes of graphexes
+ []
+
+
+Overfull \hbox (1.77867pt too wide) in paragraph at lines 1867--1870
+[]\T1/pplj/b/n/10.95 Theorem 4.6.7. []\T1/pplj/m/it/10.95 If $\U/zeur/m/n/10.95
+ G[]\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 G[]\T1/pplj/m/n/10.95 , [] $ \T1/ppl
+j/m/it/10.95 in $\U/rsfs/m/n/10.95 G$ \T1/pplj/m/it/10.95 is an in-fi-nite se-q
+uence such that $\U/zeur/m/n/10.95 l\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 G[]\U/
+zeus/m/n/10.95 © ½
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 1893
 .
- [129]
-Overfull \hbox (8.21127pt too wide) in paragraph at lines 1779--1785
+[130]
+Overfull \hbox (3.20992pt too wide) in paragraph at lines 1899--1904
+\T1/pplj/m/n/10.95 the ob-ser-va-tion that if $\U/zeur/m/n/10.95 G  \U/zeus/m/n
+/10.95 ^^X  [][][][]$ \T1/pplj/m/n/10.95 then $[][][][]  \U/zeus/m/n/10.95 ^^X 
+ [][][][]$\T1/pplj/m/n/10.95 .
+ []
+
+
+Overfull \hbox (8.21127pt too wide) in paragraph at lines 1933--1938
 \T1/pplj/m/n/10.95 The first equal-ity fol-lows by the ob-ser-va-tion that each
  ver-tex of $[][]\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 G[]\U/zeus/m/n/10.95 ©$
  []
 
-
-Overfull \hbox (9.53847pt too wide) in paragraph at lines 1786--1790
+Package cleveref Info: loaded `english' language definitions on input line 1939
+.
+[131]
+Overfull \hbox (9.53847pt too wide) in paragraph at lines 1939--1943
 []\T1/pplj/m/n/10.95 Let $\U/zeur/m/n/10.95 ^^X$ \T1/pplj/m/n/10.95 be a point 
 pro-cess with dis-tri-bu-tion de-fined by, for any bounded
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 1813
-.
-[130])
+
+Overfull \hbox (7.18568pt too wide) in paragraph at lines 1943--1954
+\T1/pplj/m/n/10.95 tency con-di-tions nec-es-sary for $[][]\U/zeus/m/n/10.95 f[
+][]¨\U/zeur/m/n/10.95 G[]\U/zeus/m/n/10.95 ©¨\U/zeur/m/n/10.95 B[]\U/zeus/m/n/1
+0.95 ©\T1/pplj/m/n/10.95 , [] , [][]\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 G[]\U/
+zeus/m/n/10.95 ©¨\U/zeur/m/n/10.95 B[]\U/zeus/m/n/10.95 ©g$
+ []
+
+)
 Package cleveref Info: loaded `english' language definitions on input line 499.
 
- [131] [132
-
-
-
-]
+ [132]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (./FrontBackmatter/Bibliography.tex)
@@ -3411,6 +3296,9 @@ rse
  []
 
 [133
+
+
+
 
 
 
@@ -3761,7 +3649,7 @@ FrontBackmatter/Bibliography.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 520.
 Package rerunfilecheck Info: File `VictorVeitchPhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 47904A290A1E079102CAD1FF4E62C1A2;4576.
+(rerunfilecheck)             Checksum: C66F03E397058140385C9FC91A1530B1;4531.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -3771,13 +3659,13 @@ Package logreq Info: Writing requests to 'VictorVeitchPhDThesis.run.xml'.
  )
 (\end occurred when \iftrue on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 28695 strings out of 494910
- 500873 string characters out of 6179836
- 939465 words of memory out of 5000000
- 30320 multiletter control sequences out of 15000+600000
+ 28713 strings out of 494910
+ 501183 string characters out of 6179836
+ 939476 words of memory out of 5000000
+ 30330 multiletter control sequences out of 15000+600000
  131292 words of font info for 240 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 69i,23n,103p,2293b,2962s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,23n,103p,2293b,2966s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texm
 f-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/c
 m-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
@@ -3805,10 +3693,10 @@ c1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb>
-Output written on VictorVeitchPhDThesis.pdf (143 pages, 1930987 bytes).
+Output written on VictorVeitchPhDThesis.pdf (147 pages, 1937473 bytes).
 PDF statistics:
- 2504 PDF objects out of 2984 (max. 8388607)
- 2290 compressed objects within 23 object streams
- 1007 named destinations out of 1200 (max. 500000)
+ 2549 PDF objects out of 2984 (max. 8388607)
+ 2330 compressed objects within 24 object streams
+ 1015 named destinations out of 1200 (max. 500000)
  30198 words of extra memory for PDF output out of 35830 (max. 10000000)
 

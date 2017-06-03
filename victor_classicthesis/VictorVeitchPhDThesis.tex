@@ -29,7 +29,7 @@
 \RequirePackage{fix-cm} % fix some latex issues see: http://texdoc.net/texmf-dist/doc/latex/base/fixltx2e.pdf
 \documentclass[ twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,% letterpaper a4paper
                 footinclude=true,cleardoublepage=empty,abstractoff, % <--- obsolete, remove (todo)
-                BCOR=5mm,paper=a4,fontsize=11pt,%11pt,a4paper,%
+                BCOR=5mm,paper=letter,fontsize=11pt,%11pt,a4paper,%
                 english,%
                 ]{scrreprt}
 \usepackage[title]{appendix}
@@ -475,11 +475,11 @@
 %\include{FrontBackmatter/Titleback}
 %\cleardoublepage\include{FrontBackmatter/Dedication}
 %\cleardoublepage\include{FrontBackmatter/Foreword}
-\include{FrontBackmatter/Abstract}
-\include{FrontBackmatter/Attribution}
-\include{FrontBackmatter/Acknowledgments}
+\cleardoublepage\include{FrontBackmatter/Abstract}
+\cleardoublepage\include{FrontBackmatter/Attribution}
+\cleardoublepage\include{FrontBackmatter/Acknowledgments}
 \pagestyle{scrheadings}
-\include{FrontBackmatter/Contents}
+\cleardoublepage\include{FrontBackmatter/Contents}
 
 % \cleardoublepage\include{FrontBackmatter/Attribution}
 % \cleardoublepage\include{FrontBackmatter/Acknowledgments}
