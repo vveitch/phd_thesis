@@ -1254,36 +1254,67 @@
   \field{year}{1955}
 \endentry
 
-\entry{Herlau:Schmidt:Morup:2015}{article}{}
+\entry{Herlau:Schmidt:Morup:2016}{incollection}{}
   \name{author}{3}{}{%
     {{}%
-     {{Herlau}}{H.}%
-     {T.}{T.}%
+     {Herlau}{H.}%
+     {Tue}{T.}%
      {}{}%
      {}{}}%
     {{}%
-     {{Schmidt}}{S.}%
-     {M.N.}{M.}%
+     {Schmidt}{S.}%
+     {Mikkel~N}{M.~N.}%
      {}{}%
      {}{}}%
     {{}%
-     {{Morup}}{M.}%
-     {M.}{M.}%
+     {M{\o}rup}{M.}%
+     {Morten}{M.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{HTSMMM1}
-  \strng{fullhash}{HTSMMM1}
-  \field{labelalpha}{HSM15}
+  \name{editor}{5}{}{%
+    {{}%
+     {Lee}{L.}%
+     {D.~D.}{D.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sugiyama}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Luxburg}{L.}%
+     {U.~V.}{U.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guyon}{G.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Garnett}{G.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Curran Associates, Inc.}%
+  }
+  \strng{namehash}{HTSMNMM1}
+  \strng{fullhash}{HTSMNMM1}
+  \field{labelalpha}{HSM16}
   \field{sortinit}{H}
-  \verb{eprint}
-  \verb 1507.02925
-  \endverb
+  \field{booktitle}{Advances in Neural Information Processing Systems 29}
+  \field{pages}{4260\bibrangedash 4268}
   \field{title}{Completely random measures for modelling block-structured
-  networks}
-  \field{journaltitle}{ArXiv e-prints}
-  \field{eprinttype}{arXiv}
-  \field{year}{2015}
+  sparse networks}
+  \verb{url}
+  \verb http://papers.nips.cc/paper/6521-completely-random-measures-for-modelli
+  \verb ng-block-structured-sparse-networks.pdf
+  \endverb
+  \field{year}{2016}
 \endentry
 
 \entry{denHollander:2012}{book}{}
@@ -1732,6 +1763,37 @@
   \field{howpublished}{Preprint}
   \field{title}{Subsampling and invariance in networks}
   \field{year}{2017}
+\endentry
+
+\entry{Todeschini:Caron:2016}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Todeschini}}{T.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Caron}}{C.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Statistics - Methodology, Computer Science - Social and Information
+  Networks, Physics - Physics and Society, Statistics - Machine Learning}
+  \strng{namehash}{TACF1}
+  \strng{fullhash}{TACF1}
+  \field{labelalpha}{TC16}
+  \field{sortinit}{T}
+  \verb{eprint}
+  \verb 1602.02114
+  \endverb
+  \field{title}{{Exchangeable Random Measures for Sparse and Modular Graphs
+  with Overlapping Communities}}
+  \field{journaltitle}{ArXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{stat.ME}
+  \field{month}{02}
+  \field{year}{2016}
 \endentry
 
 \entry{Veitch:Roy:2015}{article}{}

@@ -116,6 +116,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.7}Sampling defines exchangeable random graphs}{131}{section.4.7}
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Discussion}}{133}{chapter.5}
+\defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{133}{dummy.2}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{135}{dummy.2}

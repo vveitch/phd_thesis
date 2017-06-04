@@ -11,6 +11,7 @@ A level-1 auxiliary file: Chapters/intro.aux
 A level-1 auxiliary file: Chapters/VR15.aux
 A level-1 auxiliary file: Chapters/VR16.aux
 A level-1 auxiliary file: Chapters/BCCV17.aux
+A level-1 auxiliary file: Chapters/discussion.aux
 A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -23,50 +24,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 13479 items from 5000.
+Reallocated field_info (elt_size=4) to 13757 items from 5000.
 Database file #1: VictorVeitchPhDThesis-blx.bib
 Database file #2: random_graphs.bib
+Warning--I didn't find a database entry for "Herlau:Schmidt:Morup:2015"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 61 entries,
+You've used 62 entries,
             6047 wiz_defined-function locations,
-            1569 strings with 22715 characters,
-and the built_in function-call counts, 217975 in all, are:
-= -- 7899
-> -- 8395
-< -- 2702
-+ -- 2825
-- -- 3447
-* -- 18061
-:= -- 13215
+            1582 strings with 23368 characters,
+and the built_in function-call counts, 222892 in all, are:
+= -- 8117
+> -- 8550
+< -- 2764
++ -- 2886
+- -- 3505
+* -- 18524
+:= -- 13486
 add.period$ -- 0
-call.type$ -- 61
-change.case$ -- 60
-chr.to.int$ -- 162
-cite$ -- 120
-duplicate$ -- 24250
-empty$ -- 21934
-format.name$ -- 4839
-if$ -- 49444
+call.type$ -- 62
+change.case$ -- 61
+chr.to.int$ -- 168
+cite$ -- 122
+duplicate$ -- 24830
+empty$ -- 22411
+format.name$ -- 4954
+if$ -- 50520
 int.to.chr$ -- 0
-int.to.str$ -- 175
+int.to.str$ -- 179
 missing$ -- 0
-newline$ -- 1818
-num.names$ -- 3258
-pop$ -- 19453
+newline$ -- 1878
+num.names$ -- 3329
+pop$ -- 19791
 preamble$ -- 1
-purify$ -- 1272
+purify$ -- 1307
 quote$ -- 0
-skip$ -- 13892
+skip$ -- 14197
 stack$ -- 0
-substring$ -- 4378
-swap$ -- 8571
-text.length$ -- 2234
-text.prefix$ -- 83
+substring$ -- 4550
+swap$ -- 8788
+text.length$ -- 2277
+text.prefix$ -- 84
 top$ -- 1
-type$ -- 2305
+type$ -- 2343
 warning$ -- 0
-while$ -- 1364
+while$ -- 1392
 width$ -- 0
-write$ -- 1756
+write$ -- 1815
+(There was 1 warning)
